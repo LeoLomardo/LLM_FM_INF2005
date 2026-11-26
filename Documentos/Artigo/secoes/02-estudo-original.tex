@@ -1,0 +1,10 @@
+\section{Estudo original}
+\label{sec:original}
+
+\paragraph{Fundamentos.} \todo{feature models, relações mandatory/optional/alternative/or, cross-tree constraints, \uvl{} (hierarquia por tabulação).}
+
+\paragraph{Método.} Os autores partiram dos 1.215 modelos do SPLOT~\cite{mendonca2009splot} em FamaXML, convertidos para \uvl{} com o \flamapy{}~\cite{galindo2023flamapy}, dos quais 30 foram selecionados manualmente. Para cada modelo, o Codex (\texttt{code-davinci-002}, temperatura 0,7, top-p 1, até 500 tokens) foi chamado em modo de inserção na linha 10 do arquivo, sem instrução explícita, gerando 5 variantes: 150 no total.
+
+\paragraph{Avaliação.} Três experimentos: (1)~validade sintática pelo parser \uvl{} do \flamapy{}; (2)~métricas estruturais (features, cross-tree constraints, relações) via \texttt{fm\_characterization}; (3)~coerência de domínio pela similaridade de cosseno entre embeddings da Cohere dos nomes de features do modelo original e de cada variante.
+
+\paragraph{Resultados relatados.} 136 de 150 variantes sintaticamente válidas ($\approx$90\%); erros apenas de tabulação e de relação sem tipo; cross-tree constraints quase inalteradas; similaridade majoritariamente entre 0,5 e 0,8. \todo{conferir números e citar seções/figuras do original.}

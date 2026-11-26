@@ -63,7 +63,14 @@ class FMAnalysis():
                         get_ratio(_variant_features, self.fm.get_features()))
 
     def fm_false_optional_features(self) -> FMPropertyMeasure:
-        _false_optional_features = sat_operations.Glucose3FalseOptionalFeatures(self.fm).execute(self.sat_model).get_result()
+        # flamapy-sat 1.1.x: o construtor não recebe o FM; ele é atribuído ao atributo
+        # `feature_model`. Versões antigas recebiam o FM no construtor.
+        try:
+            _op = sat_operations.Glucose3FalseOptionalFeatures()
+            _op.feature_model = self.fm
+        except TypeError:
+            _op = sat_operations.Glucose3FalseOptionalFeatures(self.fm)
+        _false_optional_features = _op.execute(self.sat_model).get_result()
         return FMPropertyMeasure(FMProperties.FALSE_OPTIONAL_FEATURES.value, 
                         _false_optional_features, 
                         len(_false_optional_features),

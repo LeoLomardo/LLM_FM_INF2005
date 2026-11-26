@@ -1,0 +1,72 @@
+%% =====================================================================
+%% Artigo de reprodução/replicação — INF2005 (PUC-Rio, 2026.2)
+%% Estudo original: Galindo et al., SPLC'23, DOI 10.1145/3579027.3608973
+%% Compilar:  make        (pdflatex + bibtex)   |   Overleaf: main.tex
+%% =====================================================================
+\documentclass[sigconf,nonacm]{acmart}
+
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage[capitalise,nameinlink,brazilian]{cleveref}
+
+% Figuras geradas pelo notebook ficam em 3.results/figures (raiz do repo)
+\graphicspath{{figuras/}{../../3.results/figures/}}
+
+% ---- Marcadores de trabalho (remover antes da entrega) ----
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
+\newcommand{\felipe}[1]{\textcolor{blue}{\textbf{[Felipe: #1]}}}
+\newcommand{\gabriela}[1]{\textcolor{teal}{\textbf{[Gabriela: #1]}}}
+\newcommand{\leo}[1]{\textcolor{orange}{\textbf{[Leo: #1]}}}
+
+% ---- Macros do domínio ----
+\newcommand{\uvl}{UVL}
+\newcommand{\flamapy}{Flamapy}
+\newcommand{\RQ}[1]{\textbf{RQ#1}}
+
+\lstdefinelanguage{UVL}{morekeywords={features,constraints,mandatory,optional,alternative,or,namespace,imports,include},sensitive=true}
+\lstset{basicstyle=\ttfamily\footnotesize,keywordstyle=\bfseries,tabsize=4,breaklines=true,frame=single,columns=fullflexible}
+
+\begin{document}
+
+\title{LLMs para gerar instâncias significativas de feature models:\\ um estudo de reprodução e replicação}
+
+\author{Felipe Frighetto Gonzalez}
+\affiliation{\institution{PUC-Rio}\city{Rio de Janeiro}\country{Brasil}}
+\email{TODO@inf.puc-rio.br}
+
+\author{Gabriela Soares de Moraes}
+\affiliation{\institution{PUC-Rio}\city{Rio de Janeiro}\country{Brasil}}
+\email{TODO@inf.puc-rio.br}
+
+\author{Leo Land Bairos Lomardo}
+\affiliation{\institution{PUC-Rio}\city{Rio de Janeiro}\country{Brasil}}
+\email{TODO@inf.puc-rio.br}
+
+\renewcommand{\shortauthors}{Gonzalez, Moraes e Lomardo}
+
+\input{secoes/00-resumo}
+
+\keywords{large language models, feature models, UVL, reprodução, replicação, modelos sintéticos}
+
+\maketitle
+
+\input{secoes/01-introducao}
+\input{secoes/02-estudo-original}
+\input{secoes/03-reproducao}
+\input{secoes/04-replicacao}
+\input{secoes/05-resultados}
+\input{secoes/06-discussao}
+\input{secoes/07-ameacas}
+\input{secoes/08-conclusao}
+
+\section*{Disponibilidade de artefatos}
+\input{secoes/09-artefatos}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{referencias}
+
+\end{document}

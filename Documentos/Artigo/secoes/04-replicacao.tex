@@ -1,0 +1,34 @@
+\section{Desenho da replicação}
+\label{sec:replicacao}
+
+\subsection{Questões de pesquisa}
+\begin{description}
+  \item[\RQ{1}] Os LLMs atuais, via API e local, mantêm a taxa de $\approx$90\% de variantes sintaticamente válidas obtida pelo Codex?
+  \item[\RQ{2}] Entre as variantes sintaticamente válidas, quantas são logicamente consistentes (ao menos um produto possível e sem dead features)?
+  \item[\RQ{3}] Quantas features e restrições os LLMs acrescentam e removem em relação ao modelo original?
+  \item[\RQ{4}] As features acrescentadas mantêm o domínio do modelo original (similaridade de cosseno $\geq 0{,}5$)?
+\end{description}
+
+\subsection{Alterações em relação ao estudo original}
+\begin{table}[t]
+  \caption{Estudo original versus replicação.}
+  \label{tab:desenho}
+  \small
+  \begin{tabular}{p{.17\columnwidth}p{.33\columnwidth}p{.38\columnwidth}}
+    \toprule
+    & Original & Replicação \\
+    \midrule
+    LLM & Codex (desativado) & \todo{modelo API} e \todo{modelo local via Ollama} \\
+    Pedido & completar a partir da linha 10, sem instrução & instruction prompting com o texto do artigo \\
+    Volume & $30\times5=150$ & $2\times30\times5=300$ (+150 do Codex) \\
+    Embeddings & Cohere v2 (4096 dims) & Cohere \texttt{embed-english-v3.0} \\
+    Avaliação & sintaxe, totais, similaridade & funil: sintaxe, lógica, estrutura, domínio \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Prompt}
+LLMs atuais de chat não completam o meio de um arquivo; por isso usamos \emph{instruction prompting}, técnica e texto descritos no próprio artigo original: (1)~contexto (``UVL specifies variability models with a tree-like structure\ldots''); (2)~instrução (``Augment the following UVL example while preserving formalism and semantic similarity.''); (3)~o modelo original completo; (4)~formato de saída (acréscimo nosso): devolver apenas o modelo \uvl{} completo. Temperatura 0,7 e top-p 1, como no original. \todo{limite de tokens, seed, datas das execuções, versões dos modelos.}
+
+\subsection{Avaliação em funil}
+Cada etapa avalia apenas as variantes aprovadas na anterior: (1)~\textbf{sintaxe} --- parser do \flamapy{}; (2)~\textbf{lógica} --- modelo não vazio e sem dead features (\texttt{fm\_characterization}); (3)~\textbf{estrutura} --- features e restrições acrescentadas/removidas, pela comparação das listas de nomes; (4)~\textbf{domínio} --- similaridade de cosseno $\geq 0{,}5$, calculada apenas para variantes que acrescentaram features sem remover nenhuma, para que cópias (1,0) e perdas não distorçam a medida.
