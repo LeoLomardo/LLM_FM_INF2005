@@ -1,4 +1,4 @@
-llm,variantes,s1_sintaxe,s1_%,s1_IC95,s2_logica,s2_%_das_s1,copias,so_acrescentou,so_removeu,acresc_e_removeu,feat_add_med,feat_rem_med,ctc_add_med,ctc_rem_med,s4_dominio,cos_added_mediana,cos_full_mediana
-codex,150,136,90.7,[84.9; 94.4],110,80.9,28,37,19,35,4.34,8.69,0.04,1.43,,,
-gemma2_9b,150,149,99.3,[96.3; 99.9],119,79.9,42,34,6,16,1.03,2.02,0.83,0.97,,,
-gpt-4o-mini,150,150,100.0,[97.5; 100.0],122,81.3,0,101,2,35,8.81,0.91,2.32,0.37,,,
+llm,variantes,s1_sintaxe,s1_%,s1_IC95,s2_logica,s2_%_das_s1,copias,so_acrescentou,so_removeu,acresc_e_removeu,feat_add_med,feat_rem_med,ctc_add_med,ctc_rem_med,s4_dominio,s4_rank1,s4_rank1_sem_codificados,so_acresc_sem_codificados,cos_added_mediana,cos_full_mediana
+codex,150,136,90.7,[84.9; 94.4],110,80.9,28,37,19,35,4.34,8.69,0.04,1.43,10,25,23,30,0.417,0.96
+gemma2_9b,150,149,99.3,[96.3; 99.9],119,79.9,42,34,6,16,1.03,2.02,0.83,0.97,1,12,12,31,0.306,1.0
+gpt-4o-mini,150,150,100.0,[97.5; 100.0],122,81.3,0,101,2,35,8.81,0.91,2.32,0.37,36,58,54,83,0.457,0.947

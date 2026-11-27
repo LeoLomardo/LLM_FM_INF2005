@@ -213,6 +213,14 @@ def domain(df: pd.DataFrame, orig: dict, model: str) -> tuple[pd.DataFrame, pd.D
     df["cos_added"] = np.nan
     df.loc[sel, "cos_added"] = [cos(E[a], E[orig_str[i]]) for a, i in zip(added_str, df.loc[sel, "input"])]
     df["s4_domain"] = np.where(sel, df["cos_added"] >= DOMAIN_THRESHOLD, np.nan)
+    # Medida robusta ao viés de tamanho (lista curta de acrescentadas vs. original longo):
+    # posição do próprio original entre os 30 originais por similaridade (1 = mais próximo).
+    df["s4_rank"] = np.nan
+    ranks = []
+    for a, i in zip(added_str, df.loc[sel, "input"]):
+        sims = {k: cos(E[a], E[v]) for k, v in orig_str.items()}
+        ranks.append(1 + sorted(sims.values(), reverse=True).index(sims[i]))
+    df.loc[sel, "s4_rank"] = ranks
 
     # linha de base nula: original i vs. features do original j (j != i)
     base = [{"input": i, "other": j, "cos": cos(E[orig_str[i]], E[orig_str[j]])}
@@ -254,6 +262,9 @@ def summarize(df: pd.DataFrame) -> pd.DataFrame:
             "ctc_add_med": g.loc[g["s1_syntax"].eq(True), "ctc_added"].mean().round(2),
             "ctc_rem_med": g.loc[g["s1_syntax"].eq(True), "ctc_removed"].mean().round(2),
             "s4_dominio": s4,
+            "s4_rank1": int(g["s4_rank"].eq(1).sum()) if "s4_rank" in g else np.nan,
+            "s4_rank1_sem_codificados": int((g["s4_rank"].eq(1) & g["coded_added"].eq(0)).sum()) if "s4_rank" in g else np.nan,
+            "so_acresc_sem_codificados": int((g["s2_logic"].eq(True) & g["s3_change"].eq("only_added") & g["coded_added"].eq(0)).sum()),
             "cos_added_mediana": g["cos_added"].median().round(3) if "cos_added" in g else np.nan,
             "cos_full_mediana": g["cos_full_list"].median().round(3) if "cos_full_list" in g else np.nan,
         })
