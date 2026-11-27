@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodDGvWgGpvNDjreFKhqdfWpQYPRS",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\t_id_0\n\t\toptional\n\t\t\t_id_1\n\t\t\t\tmandatory\n\t\t\t\t\t_id_2\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t_id_4\n\t\t\t\t\t\t\tenhanced_avoidance\n\t\t\t\toptional\n\t\t\t\t\tparallel_parking\n\t\tmandatory\n\t\t\t_id_5\n\t\t\t\toptional\n\t\t\t\t\tlateral_range_finder\n\t\t\t\toptional\n\t\t\t\t\tforward_range_finder\n\t\t\t\tmandatory\n\t\t\t\t\t_id_5_1\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_5_1_1\n\t\t\t\t\t\t\t_id_5_1_2\n\t\toptional\n\t\t\t_id_0_10\n\t\toptional\n\t\t\t_id_0_11\n\t\t\t\talternative\n\t\t\t\t\t_id_0_11_12_13\n\t\t\t\t\t_id_0_11_12_14\n\t\t\t\t\t_id_0_11_12_15\n\t\toptional\n\t\t\t_id_0_12\n\t\t\t\tmandatory\n\t\t\t\t\t_id_0_12_1\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_0_12_1_1\n\t\t\t\t\t\t\t_id_0_12_1_2\nconstraints\n\tenhanced_avoidance requires forward_range_finder\n\t_id_5_1_1 requires lateral_range_finder\n\t_id_5_1_2 requires _id_5_1_1",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735842,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_b2849ea4f4",
+  "usage": {
+    "completion_tokens": 286,
+    "prompt_tokens": 244,
+    "total_tokens": 530,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

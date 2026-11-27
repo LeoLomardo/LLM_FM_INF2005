@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodDN0rdY0i3OMElWh6JZNzxMBP8G",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features  \n\tFAME-DBMS  \n\t\tmandatory  \n\t\t\tOS  \n\t\t\t\talternative  \n\t\t\t\t\tNut/OS  \n\t\t\t\t\tWin  \n\t\tmandatory  \n\t\t\tBuffer_Manager  \n\t\t\t\talternative  \n\t\t\t\t\tPersistent  \n\t\t\t\t\t\tmandatory  \n\t\t\t\t\t\t\tMemory_Allocation  \n\t\t\t\t\t\t\t\talternative  \n\t\t\t\t\t\t\t\t\tStatic  \n\t\t\t\t\t\t\t\t\tDynamic  \n\t\t\t\t\t\tmandatory  \n\t\t\t\t\t\t\tPage_Replication  \n\t\t\t\t\t\t\t\talternative  \n\t\t\t\t\t\t\t\t\tLRU  \n\t\t\t\t\t\t\t\t\tLFU  \n\t\t\t\t\tIn_Memory  \n\t\toptional  \n\t\t\tDebug_Logging  \n\t\tmandatory  \n\t\t\tStorage  \n\t\t\t\tmandatory  \n\t\t\t\t\tAPI  \n\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\tGet  \n\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\tPut  \n\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\tDelete  \n\t\t\t\talternative  \n\t\t\t\t\tB+_Tree  \n\t\t\t\t\tUnindexed  \n\t\toptional  \n\t\t\tCaching  \n\t\t\t\talternative  \n\t\t\t\t\tNo_Cache  \n\t\t\t\t\tLRU_Cache  \n\t\t\t\t\tFIFO_Cache  \n\t\tmandatory  \n\t\t\tConcurrency  \n\t\t\t\talternative  \n\t\t\t\t\tSingle_Threaded  \n\t\t\t\t\tMulti_Threaded  \n\t\t\t\t\t\tmandatory  \n\t\t\t\t\t\t\tLocking  \n\t\t\t\t\t\t\t\talternative  \n\t\t\t\t\t\t\t\t\tRead_Write_Lock  \n\t\t\t\t\t\t\t\t\tOptimistic_Lock  \n\t\toptional  \n\t\t\tCompression  \n\t\t\t\talternative  \n\t\t\t\t\tNone  \n\t\t\t\t\tGzip  \n\t\t\t\t\tLZ4  ",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735849,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_83f651bdc2",
+  "usage": {
+    "completion_tokens": 264,
+    "prompt_tokens": 236,
+    "total_tokens": 500,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

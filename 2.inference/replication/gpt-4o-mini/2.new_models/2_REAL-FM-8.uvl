@@ -1,0 +1,46 @@
+features
+	monitor_engine_system
+		mandatory
+			engine_performance
+				mandatory
+					temperatures
+						optional
+							coolant
+						mandatory
+							oil
+						mandatory
+							engine
+						mandatory
+							transmission
+				mandatory
+					rpm
+				mandatory
+					exhaust_level_temp
+		mandatory
+			fuel_consumption
+				mandatory
+					measures
+						alternative
+							l_km
+							gallon_mile
+				mandatory
+					methods
+						or
+							distance
+							type_of_driving
+							drive
+		optional
+			diagnostic_system
+				mandatory
+					error_logging
+						mandatory
+							log_to_file
+						optional
+							log_to_cloud
+					notification_methods
+						alternative
+							email
+							sms
+constraints
+	drive requires rpm
+	diagnostic_system requires monitor_engine_system

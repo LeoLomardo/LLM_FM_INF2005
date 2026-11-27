@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodCBGZH3jvO0AnqciczsmVozt6Jq",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tgraph\n\t\tmandatory\n\t\t\tservices\n\t\t\t\tmandatory\n\t\t\t\t\tgraph_manipulation\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tdelete\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tselect\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tselection_mode\n\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\tincrement_selection\n\t\t\t\t\t\t\t\t\t\t\tnon_increment_selection\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tadd\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tentity_add\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tconnector_add\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tmove\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tmoving_mode\n\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\toutline_moving\n\t\t\t\t\t\t\t\t\t\t\tcontent_moving\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\tmoving_constraint\n\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\thorizontal_constraint\n\t\t\t\t\t\t\t\t\t\t\tvertical_constraint\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tcompose\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tlayer_adjust\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tup_layer\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tdown_layer\n\t\t\t\toptional\n\t\t\t\t\tdo_undo_redo\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tselect_do_undo_redo\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tadd_do_undo_redo\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tdelete_do_undo_redo\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tmove_do_undo_redo\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tcompose_do_undo_redo\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tlayer_adjust_do_undo_redo\n\t\t\t\toptional\n\t\t\t\t\tzoom_inout\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tzoom_level\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tstandard_zoom\n\t\t\t\t\t\t\t\t\thigh_zoom\n\t\t\t\t\t\t\t\t\tlow_zoom\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tzoom_animation\n\t\t\t\toptional\n\t\t\t\t\texport_import\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\texport_format\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tpdf_export\n\t\t\t\t\t\t\t\t\timage_export\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\timport_format\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tpdf_import\n\t\t\t\t\t\t\t\t\timage_import\nconstraints\n\tdo_undo_redo requires graph_manipulation\n\tzoom_inout requires graph_manipulation\n\texport_import requires graph_manipulation\n\tcompose excludes compose_do_undo_redo\n\tcompose_do_undo_redo requires compose\n\tcompose_do_undo_redo requires do_undo_redo\n\tlayer_adjust excludes layer_adjust_do_undo_redo\n\tlayer_adjust_do_undo_redo requires do_undo_redo\n\tlayer_adjust_do_undo_redo requires layer_adjust",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735775,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_2de068f8aa",
+  "usage": {
+    "completion_tokens": 453,
+    "prompt_tokens": 439,
+    "total_tokens": 892,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

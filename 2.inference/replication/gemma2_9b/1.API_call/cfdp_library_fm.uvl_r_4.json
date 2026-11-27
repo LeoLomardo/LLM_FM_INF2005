@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:27:15.361023873Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tCFDP_Library\n\t\tor\n\t\t\tsend\n\t\t\t\toptional\n\t\t\t\t\tSend_Acknowledged_Mode\n\t\t\t\toptional\n\t\t\t\t\tsend_fs_operations\n\t\t\treceive\n\t\t\t\toptional\n\t\t\t\t\tReceive_Acknowledged_Mode\n\t\t\t\toptional\n\t\t\t\t\treceive_fs_operations\n\t\t\tpus\n\t\t\t\toptional\n\t\t\t\t\tpus_rename\n\t\t\t\toptional\n\t\t\t\t\tpus_copy\n\t\t\tReboot\n\t\t\t\toptional\n\t\t\t\t\tReboot_Entity\n\t\t\t\toptional\n\t\t\t\t\treboot_pus\nconstraints\n\tpus_copy requires send\n\tpus_copy requires receive\n\tpus_rename requires send_fs_operations\n\tpus_rename requires receive_fs_operations\n\treboot_pus requires pus\n\tSend_Acknowledged_Mode implies send\n\tReceive_Acknowledged_Mode implies receive\n\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8980353563,
+  "load_duration": 188559034,
+  "prompt_eval_count": 225,
+  "prompt_eval_duration": 197273000,
+  "eval_count": 163,
+  "eval_duration": 8590176000
+}

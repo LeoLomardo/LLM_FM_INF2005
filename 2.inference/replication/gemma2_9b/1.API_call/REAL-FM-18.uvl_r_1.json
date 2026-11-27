@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-26T23:50:06.706617296Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tdoc_gen\n\t\tmandatory\n\t\t\tanalysis\n\t\t\t\tmandatory\n\t\t\t\t\tlanguage_analysis\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tcobol\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tibm_cobol\n\t\t\t\t\t\t\t\t\tmicrofocus_cobol\n\t\t\t\t\t\t\tjcl\n\t\t\t\t\t\t\tsql\n\t\t\t\t\t\t\tdelphi\n\t\t\t\t\t\t\tprogress\n\t\t\t\toptional\n\t\t\t\t\tversion_mngt\n\t\t\t\toptional\n\t\t\t\t\tsubsystems\n\t\tmandatory\n\t\t\tpresentation\n\t\t\t\tmandatory\n\t\t\t\t\tlocalization\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tenglish\n\t\t\t\t\t\t\tdutch\n\t\t\t\tmandatory\n\t\t\t\t\tinteraction\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tstatic\n\t\t\t\t\t\t\tdynamic\n\t\t\t\tmandatory\n\t\t\t\t\tmain_pages\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tprogram_page\n\t\t\t\t\t\t\t\tor\n\t\t\t\t\t\t\t\t\tannotation_section\n\t\t\t\t\t\t\t\t\tactivation_section\n\t\t\t\t\t\t\t\t\tentities_section\n\t\t\t\t\t\t\t\t\tparameters_section\n\t\t\t\t\t\t\tcopybook_page\n\t\t\t\t\t\t\tstatistics_page\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\twith_history\n\t\t\t\t\t\t\t\t\twithout_history\n\t\t\t\t\t\t\tindexes\n\t\t\t\t\t\t\tsearch_page\n\t\t\t\t\t\t\tsubsystem_page\n\t\t\t\t\t\t\tsource_page\n\t\t\t\t\t\t\tsource_difference\n\t\t\t\toptional\n\t\t\t\t\tvisualizations\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tperform_graph\n\t\t\t\t\t\t\tconditional_perform_graph\n\t\t\t\t\t\t\tjcl_graph\n\t\t\t\t\t\t\tsubsystem_graph\n\t\t\t\t\t\t\toverview_graph\n\t\tmandatory\n\t\t\tdatabase\n\t\t\t\talternative\n\t\t\t\t\tdb2\n\t\t\t\t\toracle\n\t\t\t\t\tmysql\nconstraints\n\tsubsystem_page requires subsystems\n\tsubsystem_graph requires subsystems\n\tsource_difference requires version_mngt\n\tperform_graph requires cobol\n\tconditional_perform_graph requires cobol\n\tjcl_graph requires jcl\n\tstatic excludes annotation_section\n\tstatic excludes search_page\n\tdynamic includes annotation_section\n\tdynamic includes search_page"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 20954164058,
+  "load_duration": 184796759,
+  "prompt_eval_count": 407,
+  "prompt_eval_duration": 575638000,
+  "eval_count": 338,
+  "eval_duration": 20102532000
+}

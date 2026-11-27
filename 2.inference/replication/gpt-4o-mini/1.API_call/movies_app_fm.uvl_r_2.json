@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodDR4DupTZqT4HCZP5eh7YgTPgKo",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tMovies_App\n\t\tmandatory\n\t\t\tGUI\n\t\t\t\talternative\n\t\t\t\t\tThin\n\t\t\t\t\tRich\n\t\tmandatory\n\t\t\tDB\n\t\t\t\talternative\n\t\t\t\t\tLocal\n\t\t\t\t\tRemote\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tCache_Policy\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tNo_Cache\n\t\t\t\t\t\t\t\t\tIn_Memory\n\t\t\t\t\tCloud\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tAuthentication_Method\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tOAuth\n\t\t\t\t\t\t\t\t\tAPI_Key\n\t\tmandatory\n\t\t\tNetwork\n\t\t\t\talternative\n\t\t\t\t\tWifi\n\t\t\t\t\tBluetooth\n\t\t\t\t\tCellular\n\t\toptional\n\t\t\tGPS\n\t\t\t\toptional\n\t\t\t\t\tBuilt-In\n\t\t\t\t\tExternal\n\t\toptional\n\t\t\tNotifications\n\t\t\t\tmandatory\n\t\t\t\t\tTypes\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tPush\n\t\t\t\t\t\t\tEmail\n\t\t\t\t\t\t\tSMS\n\t\toptional\n\t\t\tAnalytics\n\t\t\t\tmandatory\n\t\t\t\t\tTracking_Method\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tUser_Tracking\n\t\t\t\t\t\t\tEvent_Tracking\n\t\toptional\n\t\t\tOffline_Mode\n\t\t\t\tmandatory\n\t\t\t\t\tData_Synchronization\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tAuto_Sync\n\t\t\t\t\t\t\tManual_Sync",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735853,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_9400314673",
+  "usage": {
+    "completion_tokens": 237,
+    "prompt_tokens": 169,
+    "total_tokens": 406,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

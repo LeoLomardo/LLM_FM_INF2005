@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-26T23:53:44.563647957Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tweather_station\n\t\tmandatory\n\t\t\tmeasurements\n\t\t\t\tor\n\t\t\t\t\tpressure\n\t\t\t\t\ttemperature\n\t\t\t\t\twind_speed\n\t\tmandatory\n\t\t\tdata_source\n\t\t\t\talternative\n\t\t\t\t\tinternet\n\t\t\t\t\tdemo\n\t\t\t\t\texternal_services\n\t\tmandatory\n\t\t\toutput_format\n\t\t\t\talternative\n\t\t\t\t\ttext\n\t\t\t\t\tweb_server\n\t\t\t\t\tfile\n\t\t\t\tmandatory\n\t\t\t\t\tformat\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\txml\n\t\t\t\t\t\t\thtml\n\t\t\t\t\t\t\tplain_text\n\t\t\t\tmandatory\n\t\t\t\t\tlanguage\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tenglish\n\t\t\t\t\t\t\tgerman\n\t\toptional\n\t\t\talarm\n\t\t\t\tor\n\t\t\t\t\tfreeze_point\n\t\t\t\t\tstorm_alert\nconstraints\n\tfreeze_point requires temperature\n\ttext excludes xml\n\tweb_server format excludes plain_text\n\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8285016304,
+  "load_duration": 177636397,
+  "prompt_eval_count": 222,
+  "prompt_eval_duration": 139191000,
+  "eval_count": 150,
+  "eval_duration": 7964947000
+}

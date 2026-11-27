@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodCwXwD9mm0214wAjRrMVOUfDT1E",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tjplug\n\t\tmandatory\n\t\t\tinterface\n\t\t\t\talternative\n\t\t\t\t\tsdi\n\t\t\t\t\tmdi\n\t\toptional\n\t\t\tgui_builder\n\t\t\t\tmandatory\n\t\t\t\t\tjava\n\t\t\t\toptional\n\t\t\t\t\tqt\n\t\toptional\n\t\t\tmodel_code_synch\n\t\toptional\n\t\t\tcompiler\n\t\t\t\tor\n\t\t\t\t\tjavac\n\t\t\t\t\tmvc\n\t\toptional\n\t\t\tdiagram_builder\n\t\t\t\tmandatory\n\t\t\t\t\tuml\n\t\t\t\toptional\n\t\t\t\t\tpetri_net\n\t\toptional\n\t\t\tsupport_tools\n\t\t\t\tmandatory\n\t\t\t\t\tlinter\n\t\t\t\toptional\n\t\t\t\t\tdebugger\n\t\t\t\t\tprofiler\n\t\toptional\n\t\t\textensions\n\t\t\t\tmandatory\n\t\t\t\t\tplugin_manager\n\t\t\t\toptional\n\t\t\t\t\tthemes\n\t\t\t\t\tadditional_languages\nconstraints\n\tgui_builder excludes sdi\n\tmodel_code_synch requires diagram_builder\n\tsupport_tools requires gui_builder\n\textensions excludes model_code_synch",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735822,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_e17cdfce12",
+  "usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 198,
+    "total_tokens": 391,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

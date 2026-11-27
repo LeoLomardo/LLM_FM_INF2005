@@ -26,7 +26,8 @@ O ambiente corrigido (Python 3.12) e um notebook atualizado estão no repositór
     Medida & Artigo & Reprodução \\
     \midrule
     Variantes sintaticamente válidas & 136/150 & 136/150 (90,7\%) \\
-    Respostas do Codex vazias & --- & 38/150 \\
+    Respostas do Codex vazias & --- & 23/150 \\
+    Respostas só com tabulação (\texttt{\textbackslash t}) & --- & 15/150 \\
     Similaridade mediana (orig.\ vs.\ variante) & 0,5--0,8\textsuperscript{*} & 0,943 \\
     Variantes com similaridade em [0,5; 0,8] & ``maioria'' & 27/150 \\
     Variantes com similaridade = 1,0 & --- & 29/150 \\
@@ -44,5 +45,7 @@ As 14 variantes inválidas concentram-se em poucos modelos: todas as 5 de \textt
   \caption{Reprodução do experimento 2: features, cross-tree constraints e relações por iteração (0 = original).}
   \label{fig:estrutura}
 \end{figure*}
+
+\paragraph{Válida não significa preservada.} Das 15 respostas compostas apenas por tabulações, inseridas na linha 10, nenhuma quebra o parser, mas elas alteram a indentação e, portanto, a árvore: em \texttt{3\_REAL-FM-6}, um único \texttt{\textbackslash t} remove 3 features (\texttt{display}, \texttt{color}, \texttt{monochrome}). Além disso, 8 variantes do Codex reinserem uma feature já existente (nome duplicado), o que introduz dead features. \todo{discutir.}
 
 \paragraph{Discrepância na similaridade de domínio.} \todo{discutir: a métrica premia cópias (resposta vazia $\Rightarrow$ 1,0) e penaliza variantes que perdem features; motiva o funil da replicação.}

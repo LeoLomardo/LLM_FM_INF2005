@@ -1,0 +1,33 @@
+features
+	tecom
+		optional
+			ipvoice
+				mandatory
+					software
+						alternative
+							swpack1
+							swpack2
+						optional
+							security_patch
+		mandatory
+			rack
+				mandatory
+					sizes
+						alternative
+							large
+							medium
+							small
+					additional_features
+						optional
+							power_supply
+							cooling_system
+		optional
+			messaging
+				optional
+					upgrade_swpack
+					integration_service
+constraints
+	swpack1 excludes upgrade_swpack
+	ipvoice excludes upgrade_swpack
+	power_supply requires rack
+	cooling_system requires rack

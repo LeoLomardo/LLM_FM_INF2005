@@ -1,0 +1,53 @@
+features  
+	insurance_product  
+		mandatory  
+			insured_object  
+				alternative  
+					corporation  
+					realty  
+					movable_property  
+					person  
+		mandatory  
+			coverage  
+				or  
+					illness  
+					life  
+					unemployment  
+					damage  
+					loss  
+					accidental_injury  
+		mandatory  
+			payment  
+				alternative  
+					service  
+					amount  
+				optional  
+					own_risk  
+					installments  
+		mandatory  
+			conditions  
+				mandatory  
+					acceptance  
+				mandatory  
+					exception  
+				optional  
+					renewal_terms  
+		mandatory  
+			premium  
+				alternative  
+					direct  
+					periodical  
+					one_time  
+		mandatory  
+			payee  
+				or  
+					_person  
+					payee_corporation  
+					beneficiary  
+constraints  
+	corporation excludes illness  
+	person excludes damage  
+	loss requires movable_property  
+	corporation requires payee_corporation  
+	accidental_injury requires acceptance  
+	renewal_terms applies to periodical

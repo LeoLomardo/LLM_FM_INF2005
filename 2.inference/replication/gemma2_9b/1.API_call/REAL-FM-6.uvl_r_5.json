@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:20:11.056672158Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tcellphone\n\t\toptional\n\t\t\twireless\n\t\t\t\tor\n\t\t\t\t\tinfrared\n\t\t\t\t\tbluetooth\n\t\tmandatory\n\t\t\taccu_cell\n\t\t\t\talternative\n\t\t\t\t\tli_ion\n\t\t\t\t\tni_mh\n\t\t\t\t\tni_ca\n\t\tmandatory\n\t\t\tdisplay\n\t\t\t\talternative\n\t\t\t\t\tcolor\n\t\t\t\t\tmonochrome\nconstraints\n\tbluetooth requires li_ion\n\tcolor excludes ni_ca\n\tinfrared requires monochrome \n\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5250615446,
+  "load_duration": 237425284,
+  "prompt_eval_count": 162,
+  "prompt_eval_duration": 182742000,
+  "eval_count": 86,
+  "eval_duration": 4823566000
+}

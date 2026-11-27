@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:34:01.355773941Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tStack\n\t\toptional\n\t\t\tSize\n\t\t\t\talternative\n\t\t\t\t\tFixed\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tValue\n\t\t\t\t\tDynamic\n\t\tmandatory\n\t\t\tElement_Type\n\t\t\t\talternative\n\t\t\t\t\tInteger\n\t\t\t\t\tFloat\n\t\t\t\t\tString\n\t\toptional\n\t\t\tOptimization\n\t\t\t\talternative\n\t\t\t\t\tSpeed\n\t\t\t\t\tMemory_Usage\n\t\toptional\n\t\t\tCounter\n\t\t\t\talternative\n\t\t\t\t\tEnabled\n\t\t\t\t\tDisabled\n\t\toptional\n\t\t\tAdditional_Features\n\t\t\t\tor\n\t\t\t\t\tThread_Safety\n\t\t\t\t\tBounds_Check\n\t\t\t\t\tType_Check\n\t\t\t\t\tConcurrency_Support"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5642330086,
+  "load_duration": 187657830,
+  "prompt_eval_count": 178,
+  "prompt_eval_duration": 208694000,
+  "eval_count": 109,
+  "eval_duration": 5243522000
+}

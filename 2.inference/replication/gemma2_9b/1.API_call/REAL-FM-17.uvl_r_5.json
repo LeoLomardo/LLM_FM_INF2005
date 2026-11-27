@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-26T23:49:45.75013132Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tinsurance_product\n\t\tmandatory\n\t\t\tinsured_object\n\t\t\t\talternative\n\t\t\t\t\tcorporation\n\t\t\t\t\trealty\n\t\t\t\t\tmovable_property\n\t\t\t\t\tperson\n\t\tmandatory\n\t\t\tcoverage\n\t\t\t\tor\n\t\t\t\t\tillness\n\t\t\t\t\tlife\n\t\t\t\t\tunemployment\n\t\t\t\t\tdamage\n\t\t\t\t\tloss\n\t\tmandatory\n\t\t\tpayment\n\t\t\t\talternative\n\t\t\t\t\tservice\n\t\t\t\t\tammount\n\t\t\t\toptional\n\t\t\t\t\town_risk\n\t\tmandatory\n\t\t\tconditions\n\t\t\t\tmandatory\n\t\t\t\t\tacceptance\n\t\t\t\tmandatory\n\t\t\t\t\texception\n\t\tmandatory\n\t\t\tpremium\n\t\t\t\talternative\n\t\t\t\t\tdirect\n\t\t\t\t\tperiodical\n\t\tmandatory\n\t\t\tpayee\n\t\t\t\tor\n\t\t\t\t\t_person\n\t\t\t\t\tpayee_corporation\nconstraints\n\tcorporation excludes illness\n\tperson excludes damage\n\tloss requires movable_property\n\tcorporation requires payee_corporation\n\tillness requires _person\n\tlife requires _person\n\tunemployment requires _person\n\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 10222392649,
+  "load_duration": 204553006,
+  "prompt_eval_count": 244,
+  "prompt_eval_duration": 187883000,
+  "eval_count": 182,
+  "eval_duration": 9826735000
+}

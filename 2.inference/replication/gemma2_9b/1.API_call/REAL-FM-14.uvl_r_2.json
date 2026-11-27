@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-26T23:46:32.167326701Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\teditor_config\n\t\tmandatory\n\t\t\tbackup\n\t\t\t\toptional\n\t\t\t\t\tautosave\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tminutes\n\t\t\t\toptional\n\t\t\t\t\tbackup_onchange\n\t\t\t\tmandatory\n\t\t\t\t\tbackup_extension\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tfile_bak\n\t\t\t\t\t\t\tfile_bak_ext\n\t\t\t\t\t\t\tfile_ext_bak\n\t\toptional\n\t\t\tdocument_class\n\t\t\t\tmandatory\n\t\t\t\t\tassociated_file_ext\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\text\n\t\t\t\tmandatory\n\t\t\t\t\tcommands\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tremove_blank_lines\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tspell_check\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tdos_unix_conversion\n\t\t\t\toptional\n\t\t\t\t\tsyntax_highlighting\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tsyntax_definition_file\n\t\toptional\n\t\t\ttheme\n\t\t\t\tmandatory\n\t\t\t\t\tname\n\t\t\t\toptional\n\t\t\t\t\tdark_mode\n\tuser_interface\n\t\tmandatory\t\n\t\t\tlanguage\n\t\t\t\talternative\n\t\t\t\t\tenglish\n\t\t\t\t\tspanish\n\t\t\t\t\tfrench\n\t\toptional\n\t\t\tfont\n\t\t\t\tmandatory\n\t\t\t\t\tsize\n\t\t\t\toptional\n\t\t\t\t\tfamily\n\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 11263619724,
+  "load_duration": 188912533,
+  "prompt_eval_count": 224,
+  "prompt_eval_duration": 172830000,
+  "eval_count": 204,
+  "eval_duration": 10897354000
+}

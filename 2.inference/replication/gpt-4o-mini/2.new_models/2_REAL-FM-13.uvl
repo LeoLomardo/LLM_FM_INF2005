@@ -1,0 +1,42 @@
+features
+	tecom
+		optional
+			ipvoice
+				mandatory
+					software
+						alternative
+							swpack1
+							swpack2
+		mandatory
+			rack
+				mandatory
+					sizes
+						alternative
+							large
+							medium
+							small
+		optional
+			messaging
+				optional
+					upgrade_swpack
+					optional
+						notifications
+							mandatory
+								type
+									alternative
+										email
+										sms
+										push
+		optional
+			security
+				mandatory
+					protocol
+						alternative
+							tls
+							ssl
+							none
+constraints
+	swpack1 excludes upgrade_swpack
+	ipvoice excludes upgrade_swpack
+	notifications excludes upgrade_swpack
+	security excludes upgrade_swpack

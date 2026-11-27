@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodCvAbI25KuN12TGesnFTJrjLlWL",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features  \n\tcellphone  \n\t\toptional  \n\t\t\twireless  \n\t\t\t\tor  \n\t\t\t\t\tinfrared  \n\t\t\t\t\tbluetooth  \n\t\tmandatory  \n\t\t\taccu_cell  \n\t\t\t\talternative  \n\t\t\t\t\tli_ion  \n\t\t\t\t\tni_mh  \n\t\t\t\t\tni_ca  \n\t\tmandatory  \n\t\t\tdisplay  \n\t\t\t\talternative  \n\t\t\t\t\tcolor  \n\t\t\t\t\tmonochrome  \n\t\tmandatory  \n\t\t\tcamera  \n\t\t\t\talternative  \n\t\t\t\t\thigh_resolution  \n\t\t\t\t\tstandard_resolution  \n\t\toptional  \n\t\t\taccessories  \n\t\t\t\tor  \n\t\t\t\t\theadphones  \n\t\t\t\t\tscreen_protector  \nconstraints  \n\tbluetooth requires li_ion  \n\tcolor excludes ni_ca  \n\thigh_resolution requires color  \n\theadphones excludes infrared  ",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735821,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_e61d09ff08",
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 170,
+    "total_tokens": 315,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

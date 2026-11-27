@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-26T23:52:41.734747851Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tgraph\n\t\tmandatory\n\t\t\tservices\n\t\t\t\tmandatory\n\t\t\t\t\tgraph_manipulation\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tdelete\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tselect\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tselection_mode\n\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\tincrement_selection\n\t\t\t\t\t\t\t\t\t\t\tnon_increment_selection\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tadd\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tentity_add\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tconnector_add\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tmove\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tmoving_mode\n\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\toutline_moving\n\t\t\t\t\t\t\t\t\t\t\tcontent_moving\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\tmoving_constraint\n\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\thorizontal_constraint\n\t\t\t\t\t\t\t\t\t\t\tvertical_constraint\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tcompose\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tlayer_adjust\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tup_layer\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tdown_layer\n\t\t\t\toptional\n\t\t\t\t\tdo_undo_redo\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tselect_do_undo_redo\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tadd_do_undo_redo\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tdelete__do_undo_redo\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tmove_do_undo_redo\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tcompose_do_undo_redo\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tlayer_adjust_do_undo_redo\n\t\t\t\toptional\n\t\t\t\t\tzoom_inout\nconstraints\n\tdo_undo_redo requires graph_manipulation\n\tzoom_inout requires graph_manipulation\n\tcompose excludes compose_do_undo_redo\n\tcompose_do_undo_redo requires compose\n\tcompose_do_undo_redo requires do_undo_redo\n\tlayer_adjust excludes layer_adjust_do_undo_redo\n\tlayer_adjust_do_undo_redo requires do_undo_redo\n\tlayer_adjust_do_undo_redo requires layer_adjust\n\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 19312392773,
+  "load_duration": 185105152,
+  "prompt_eval_count": 438,
+  "prompt_eval_duration": 143904000,
+  "eval_count": 356,
+  "eval_duration": 18973858000
+}

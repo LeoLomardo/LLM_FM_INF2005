@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:21:49.419670057Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tjames\n\t\tmandatory\n\t\t\tuser_mngt\n\t\t\t\talternative\n\t\t\t\t\tdb\n\t\t\t\t\tldap\n\t\toptional\n\t\t\tws_interface\n\t\tmandatory\n\t\t\tgui\n\t\t\t\tor\n\t\t\t\t\tpc\n\t\t\t\t\tpda\n\t\tmandatory\n\t\t\tcore\n\t\tmandatory\n\t\t\tmodules\n\t\t\t\tor\n\t\t\t\t\tcalendar\n\t\t\t\t\tforum\n\t\t\t\t\tcongress_mngt\n\t\t\t\t\trepository\nconstraints\n\tpda excludes repository\n\tcongress_mngt requires repository\n\tdb implies user_mngt \n\tldap implies user_mngt\n\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5806666246,
+  "load_duration": 180285325,
+  "prompt_eval_count": 176,
+  "prompt_eval_duration": 209723000,
+  "eval_count": 111,
+  "eval_duration": 5408946000
+}

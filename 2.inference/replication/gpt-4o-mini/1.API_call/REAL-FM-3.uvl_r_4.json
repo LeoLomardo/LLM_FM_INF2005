@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodCOJRVGW04rTVKj2LbzlvxxJPzt",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features  \n\tweb_portal  \n\t\toptional  \n\t\t\tadd_services  \n\t\t\t\toptional  \n\t\t\t\t\tsite_stats  \n\t\t\t\t\t\tmandatory  \n\t\t\t\t\t\t\tbasic  \n\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\tadvanced  \n\t\t\t\toptional  \n\t\t\t\t\tsite_search  \n\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\timages  \n\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\ttext  \n\t\t\t\t\t\t\t\tmandatory  \n\t\t\t\t\t\t\t\t\thtml  \n\t\t\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\t\t\tdynamic  \n\t\t\t\toptional  \n\t\t\t\t\tad_server  \n\t\t\t\t\t\tmandatory  \n\t\t\t\t\t\t\treports  \n\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\tpopups  \n\t\t\t\t\t\tmandatory  \n\t\t\t\t\t\t\tbanners  \n\t\t\t\t\t\t\t\tmandatory  \n\t\t\t\t\t\t\t\t\tban_img  \n\t\t\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\t\t\tban_flash  \n\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\tkeyword  \n\t\tmandatory  \n\t\t\tweb_server  \n\t\t\t\toptional  \n\t\t\t\t\tlogging  \n\t\t\t\t\t\talternative  \n\t\t\t\t\t\t\tdb  \n\t\t\t\t\t\t\tfile  \n\t\t\t\toptional  \n\t\t\t\t\tprotocol  \n\t\t\t\t\t\tor  \n\t\t\t\t\t\t\tnttp  \n\t\t\t\t\t\t\tftp  \n\t\t\t\t\t\t\thttps  \n\t\t\t\tmandatory  \n\t\t\t\t\tcont  \n\t\t\t\t\t\tmandatory  \n\t\t\t\t\t\t\tstatic  \n\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\tactive  \n\t\t\t\t\t\t\t\tor  \n\t\t\t\t\t\t\t\t\tasp  \n\t\t\t\t\t\t\t\t\tphp  \n\t\t\t\t\t\t\t\t\tjsp  \n\t\t\t\t\t\t\t\t\tcgi  \n\t\toptional  \n\t\t\tpersistence  \n\t\t\t\talternative  \n\t\t\t\t\txml  \n\t\t\t\t\tdatabase  \n\t\toptional  \n\t\t\tri  \n\t\t\t\tor  \n\t\t\t\t\tdata_storage  \n\t\t\t\t\tdata_transfer  \n\t\t\t\t\tuser_auth  \n\t\toptional  \n\t\t\tperformance  \n\t\t\t\talternative  \n\t\t\t\t\tms  \n\t\t\t\t\tsec  \n\t\t\t\t\tmin  \n\t\toptional  \n\t\t\tsecurity  \n\t\t\t\tmandatory  \n\t\t\t\t\tencryption  \n\t\t\t\t\t\toptional  \n\t\t\t\t\t\t\tssl  \n\t\t\t\t\t\t\ttls  \n\t\t\t\toptional  \n\t\t\t\t\tfirewall  \n\t\t\t\t\t\talternative  \n\t\t\t\t\t\t\thardware  \n\t\t\t\t\t\t\tsoftware  \nconstraints  \n\tdata_transfer requires https  \n\tdb requires database  \n\thttps excludes ms  \n\tfile requires ftp  \n\tkeyword requires text  \n\tdynamic requires active  \n\tencryption requires ssl  \n\tfirewall requires security  ",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735788,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_2de068f8aa",
+  "usage": {
+    "completion_tokens": 379,
+    "prompt_tokens": 400,
+    "total_tokens": 779,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

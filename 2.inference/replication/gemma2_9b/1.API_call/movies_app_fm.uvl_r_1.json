@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:29:18.249859607Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tMovies_App\n\t\tmandatory\n\t\t\tGUI\n\t\t\t\talternative\n\t\t\t\t\tThin\n\t\t\t\t\tRich\n\t\tmandatory\n\t\t\tDB\n\t\t\t\talternative\n\t\t\t\t\tLocal\n\t\t\t\t\tRemote\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tCache_Policy\n                                                    optional\n                                                        Compression_Algorithm\n\t\tmandatory\n\t\t\tNetwork\n\t\t\t\talternative\n\t\t\t\t\tWifi\n\t\t\t\t\tBluetooth\n\t\toptional\n\t\t\tGPS\n\t\t\t\toptional\n\t\t\t\t\tBuilt_In\n\t\n\t\t\t\toptional\n\t\t\t\t\tExternal"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 5142851233,
+  "load_duration": 182434057,
+  "prompt_eval_count": 157,
+  "prompt_eval_duration": 328163000,
+  "eval_count": 92,
+  "eval_duration": 4597436000
+}

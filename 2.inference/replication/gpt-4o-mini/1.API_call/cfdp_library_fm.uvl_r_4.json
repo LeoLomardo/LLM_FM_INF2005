@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodDJ2MAajc23s4jDegUTMZBND5BC",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tCFDP_Library\n\t\tor\n\t\t\tsend\n\t\t\t\toptional\n\t\t\t\t\tSend_Acknowledged_Mode\n\t\t\t\toptional\n\t\t\t\t\tsend_fs_operations\n\t\t\t\toptional\n\t\t\t\t\tsend_encryption\n\t\t\treceive\n\t\t\t\toptional\n\t\t\t\t\tReceive_Acknowledged_Mode\n\t\t\t\toptional\n\t\t\t\t\treceive_fs_operations\n\t\t\t\toptional\n\t\t\t\t\treceive_encryption\n\t\t\tpus\n\t\t\t\toptional\n\t\t\t\t\tpus_rename\n\t\t\t\toptional\n\t\t\t\t\tpus_copy\n\t\t\t\toptional\n\t\t\t\t\tpus_logging\n\t\t\tReboot\n\t\t\t\toptional\n\t\t\t\t\tReboot_Entity\n\t\t\t\toptional\n\t\t\t\t\treboot_pus\n\t\t\t\toptional\n\t\t\t\t\treboot_logging\nconstraints\n\tpus_copy requires send\n\tpus_copy requires receive\n\tpus_rename requires send_fs_operations\n\tpus_rename requires receive_fs_operations\n\treboot_pus requires pus\n\tsend_encryption requires send\n\treceive_encryption requires receive\n\tpus_logging requires pus",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735845,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_9724db4c07",
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 227,
+    "total_tokens": 430,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

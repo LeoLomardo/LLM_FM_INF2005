@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodDLlVXuVHeqWDHU7XoJCLNUIx35",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tConnector\n\t\tmandatory\n\t\t\tParadigm\n\t\t\t\talternative\n\t\t\t\t\tClient/Server\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tSynchronous\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\tTimeout\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\tRetry\n\t\t\t\t\t\t\tAsynchronous\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tPolling\n\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\tBlocking\n\t\t\t\t\t\t\t\t\t\t\tNon-blocking\n\t\t\t\t\t\t\t\t\tCallback\n\t\t\t\t\tMessage-Based\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tSender\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\tEncryption\n\t\t\t\t\t\t\tReceiver\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tProtocol\n\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\tHTTP\n\t\t\t\t\t\t\t\t\t\t\tUDP\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tPull\n\t\t\t\t\t\t\t\t\t\tor\n\t\t\t\t\t\t\t\t\t\t\tQueued\n\t\t\t\t\t\t\t\t\t\t\tNon-Queued\n\t\t\t\t\t\t\t\t\tPush\n\t\tmandatory\n\t\t\tTechnology\n\t\t\t\talternative\n\t\t\t\t\tCAN\n\t\t\t\t\tLocal\n\t\t\t\t\tWireless\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tRange\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tFrequency\n\t\toptional\n\t\t\tMonitoring\n\t\t\t\tmandatory\n\t\t\t\t\tLevel\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tBasic\n\t\t\t\t\t\t\tAdvanced\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tLogging\n\t\t\t\toptional\n\t\t\t\t\tAlerts\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tEmail\n\t\t\t\t\t\t\tSMS\n\t\t\t\t\t\t\tNone",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735847,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_15014e7912",
+  "usage": {
+    "completion_tokens": 246,
+    "prompt_tokens": 214,
+    "total_tokens": 460,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodD2TbohFDZp9HpXf9jWOjYZ88C5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tAircraft\n\t\tmandatory\n\t\t\tWing\n\t\t\t\tor\n\t\t\t\t\tHigh\n\t\t\t\t\tShoulder\n\t\t\t\t\tLow\n\t\toptional\n\t\t\tEngine\n\t\t\t\talternative\n\t\t\t\t\tJet\n\t\t\t\t\tPiston\n\t\tmandatory\n\t\t\tMaterials\n\t\t\t\tor\n\t\t\t\t\tMetal\n\t\t\t\t\tWood\n\t\t\t\t\tCloth\n\t\t\t\t\tPlastic\n\t\toptional\n\t\t\tAvionics\n\t\t\t\talternative\n\t\t\t\t\tGPS\n\t\t\t\t\tRadar\n\t\t\t\t\tCommunication\n\t\tmandatory\n\t\t\tCapacity\n\t\t\t\tor\n\t\t\t\t\tTwo_Seater\n\t\t\t\t\tFour_Seater\n\t\t\t\t\tSix_Seater\n\t\toptional\n\t\t\tInterior\n\t\t\t\tor\n\t\t\t\t\tLuxury\n\t\t\t\t\tEconomy\n\t\t\t\t\tBasic",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735828,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_c4117ad984",
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 156,
+    "total_tokens": 315,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

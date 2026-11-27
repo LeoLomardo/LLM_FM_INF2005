@@ -1,0 +1,39 @@
+features
+	jplug
+		mandatory
+			interface
+				alternative
+					sdi
+					mdi
+		optional
+			gui_builder
+				mandatory
+					java
+				optional
+					qt
+					swing
+		optional
+			model_code_synch
+		optional
+			compiler
+				or
+					javac
+					mvc
+					gnu
+		optional
+			diagram_builder
+				mandatory
+					uml
+				optional
+					petri_net
+					bpmn
+		optional
+			test_suite
+				mandatory
+					unit_tests
+				optional
+					integration_tests
+constraints
+	gui_builder excludes sdi
+	model_code_synch requires diagram_builder
+	test_suite requires gui_builder

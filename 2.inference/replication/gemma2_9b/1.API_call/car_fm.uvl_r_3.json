@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:26:08.848148206Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\t_id_0\n\t\toptional\n\t\t\t_id_1\n\t\t\t\tmandatory\n\t\t\t\t\t_id_2\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t_id_4\n\t\t\t\t\t\t\tenhanced_avoidance\n\t\t\t\toptional\n\t\t\t\t\tparallel_parking\n\t\tmandatory\n\t\t\t_id_5\n\t\t\t\toptional\n\t\t\t\t\tlateral_range_finder\n\t\t\t\t\tforward_range_finder\n\t\toptional\n\t\t\t_id_0_10\n\t\toptional\n\t\t\t_id_0_11\n\t\t\t\talternative\n\t\t\t\t\t_id_0_11_12_13\n\t\t\t\t\t_id_0_11_12_14\n\t\t\t\t\t_id_0_11_12_15\n\tmandatory\n\t\t_id_3\n\t\t\toptional\n\t\t\t\t_id_6\n\t\t\t\t\talternative\n\t\t\t\t\t\t_id_7\n\t\t\t\t\t\t_id_8\n\n\nconstraints\n\tenhanced_avoidance requires forward_range_finder"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 10097260464,
+  "load_duration": 181087193,
+  "prompt_eval_count": 247,
+  "prompt_eval_duration": 116408000,
+  "eval_count": 194,
+  "eval_duration": 9788658000
+}

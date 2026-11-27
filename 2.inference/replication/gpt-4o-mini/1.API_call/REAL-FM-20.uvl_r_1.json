@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodCJ8PCnsyroNCJ5CBC1CWB4RwfQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tthread\n\t\tmandatory\n\t\t\tthread_instance\n\t\t\t\talternative\n\t\t\t\t\tmultiple\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tcoroutine\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\tdispatching\n\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\tdispach_method\n\t\t\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\t\t\tglobal_life\n\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\tscheduling\n\t\t\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t\t\tbundle_schedule\n\t\t\t\t\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tbundle_preemption\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tbundle_strategy\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tbundle_strategy_replugging\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tbundle_fcfs\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tbundle_lcfs\n\t\t\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t\t\tidle_control\n\t\t\t\t\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tidle_guard\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tidle_panic\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tidle_user\n\t\t\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t\t\tquery_schedule\n\t\t\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\t\t\tthread_schedule\n\t\t\t\t\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tthread_preemption\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tnon_preemptable_threads\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tscheduler_lockable\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tthread_strategy\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tpriority\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tschedule_same_priority\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tpriority_behaviour\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tpriority_cooperative\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tpriority_preemptive\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tpriority_count\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tpriority_16\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tpriority_32\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tpriority_8\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tthread_fcfs\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tthread_lcfs\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tthread_strategy_replugging\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tlocation\n\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\tintegrated\n\t\t\t\t\t\t\t\t\t\t\tseparated\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tsize\n\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\tfloat_set\n\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\tvolatile_set\n\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\tminimal_set\n\t\t\t\t\tsingle\n\t\t\t\tmandatory\n\t\t\t\t\tthread_priority\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\thigh_priority\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tmedium_priority\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tlow_priority\n\t\t\t\tmandatory\n\t\t\t\t\tthread_affinity\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tcpu_affinity\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tcore_affinity\n\t\t\t\toptional\n\t\t\t\t\tthread_monitoring\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tmonitoring_level\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tdetailed\n\t\t\t\t\t\t\t\t\tsummary\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tmonitoring_tool\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\ttool_name\n\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\ttool_version\n\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\ttool_type\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tmonitoring_interval\n\t\t\t\t\tpriority_inheritance\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tinheritance_protocol\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tnative\n\t\t\t\t\t\t\t\t\temulated\n\t\t\t\t\tsynchronization\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tmutex\n\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\trecursive_mutex\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tcondition_variable\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tsemantics\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tbinary_semaphore\n\t\t\t\t\t\t\t\t\tcounting_semaphore",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735783,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_2de068f8aa",
+  "usage": {
+    "completion_tokens": 581,
+    "prompt_tokens": 438,
+    "total_tokens": 1019,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

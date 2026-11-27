@@ -1,0 +1,44 @@
+features
+	_id_0
+		optional
+			page_translation
+		mandatory
+			_id_1
+				mandatory
+					_id_2
+				optional
+					_id_3
+						alternative
+							_id_5
+							_id_6
+							svg
+				optional
+					_id_7
+		optional
+			search_by_language
+				or
+					_id_9
+					_id_10
+					_id_11
+		optional
+			page_preview
+		optional
+			_id_12
+				mandatory
+					_id_13
+				optional
+					_id_14
+						alternative
+							_id_15
+							_id_16
+		optional
+			_id_17
+				or
+					_id_18
+					_id_19
+constraits
+	search_by_language requires page_translation
+	page_preview excludes svg
+	_id_12 requires _id_0
+	_id_14 excludes _id_3
+	_id_17 requires _id_1

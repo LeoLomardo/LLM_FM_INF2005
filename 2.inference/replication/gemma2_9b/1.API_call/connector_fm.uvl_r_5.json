@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:28:32.998558552Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tConnector\n\t\tmandatory\n\t\t\tParadigm\n\t\t\t\talternative\n\t\t\t\t\tClient/Server\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tSynchronous\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\tTimeout\n\t\t\t\t\t\t\tAsynchronous\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tPolling\n\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\tBlocking\n\t\t\t\t\t\t\t\t\t\t\tNon-blocking\n\t\t\t\t\t\t\t\t\tCallback\n\t\t\t\t\tMessage-Based\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tSender\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tReceiver\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tPull\n\t\t\t\t\t\t\t\t\t\tor\n\t\t\t\t\t\t\t\t\t\t\tQueued\n\t\t\t\t\t\t\t\t\t\t\tNon-Queued\n\t\t\t\t\t\t\t\t\tPush\n\t\tmandatory\n\t\t\tTechnology\n\t\t\t\talternative\n\t\t\t\t\tCAN\n\t\t\t\t\tLocal\n\t\t\t\toptional\n\t\t\t\t\tProtocol\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tTCP/IP\n\t\t\t\t\t\t\tUDP\n\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 7129822250,
+  "load_duration": 188368567,
+  "prompt_eval_count": 192,
+  "prompt_eval_duration": 188265000,
+  "eval_count": 127,
+  "eval_duration": 6749490000
+}

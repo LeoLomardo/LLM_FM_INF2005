@@ -1,0 +1,83 @@
+features
+	dvs
+		mandatory
+			control
+				mandatory
+					remote
+				optional
+					telephone
+						optional
+							sms
+						mandatory
+							voicemail
+				optional
+					net
+						optional
+							web
+						optional
+							wap
+						mandatory
+							email
+						optional
+							chat
+				optional
+					edit
+						optional
+							add_music
+						mandatory
+							remove_music
+				mandatory
+					play
+						optional
+							slides
+						optional
+							audio
+						mandatory
+							video
+						optional
+							preview
+		optional
+			network_hw
+				optional
+					modem
+						mandatory
+							dsl
+					optional
+						ethernet
+							mandatory
+								switch
+		mandatory
+			server_pc
+				optional
+					network
+						mandatory
+							firewall
+				optional
+					irda_port
+		mandatory
+			_play
+				optional
+					on_demand
+						optional
+							offline_access
+		optional
+			client_pc
+				optional
+					_network
+						mandatory
+							wireless
+		optional
+			handheld
+				mandatory
+					battery
+				optional
+					camera
+constraints
+	net requires network_hw
+	handheld requires irda_port
+	add_music requires audio
+	remove_music requires audio
+	voicemail requires telephone
+	chat requires net
+	offline_access requires on_demand
+	wireless requires client_pc

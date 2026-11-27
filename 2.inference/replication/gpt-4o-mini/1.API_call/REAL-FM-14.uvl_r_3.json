@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodBwQ4QtW6NWhbNxzHu1uztnAqze",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\teditor_config\n\t\tmandatory\n\t\t\tbackup\n\t\t\t\toptional\n\t\t\t\t\tautosave\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tminutes\n\t\t\t\toptional\n\t\t\t\t\tbackup_onchange\n\t\t\t\tmandatory\n\t\t\t\t\tbackup_extension\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tfile_bak\n\t\t\t\t\t\t\tfile_bak_ext\n\t\t\t\t\t\t\tfile_ext_bak\n\t\toptional\n\t\t\tdocument_class\n\t\t\t\tmandatory\n\t\t\t\t\tassociated_file_ext\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\text\n\t\t\t\tmandatory\n\t\t\t\t\tcommands\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tremove_blank_lines\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tspell_check\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tdos_unix_conversion\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\ttrack_changes\n\t\t\t\toptional\n\t\t\t\t\tsyntax_highlighting\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tsyntax_definition_file\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tcolor_scheme\n\t\t\t\toptional\n\t\t\t\t\tdocument_template\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\ttemplate_file\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tcustom_styles\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tstyle_file",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735760,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_e17cdfce12",
+  "usage": {
+    "completion_tokens": 201,
+    "prompt_tokens": 232,
+    "total_tokens": 433,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

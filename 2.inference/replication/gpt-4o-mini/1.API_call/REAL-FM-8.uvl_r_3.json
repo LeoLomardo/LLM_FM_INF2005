@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodCyIhdgWpymfx8p3fhBIdWWKIvp",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tmonitor_engine_system\n\t\tmandatory\n\t\t\tengine_performance\n\t\t\t\tmandatory\n\t\t\t\t\ttemperatures\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tcoolant\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\toil\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tengine\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\ttransmission\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\texhaust_gas_temp\n\t\t\t\tmandatory\n\t\t\t\t\trpm\n\t\t\t\tmandatory\n\t\t\t\t\texhaust_level_temp\n\t\t\t\toptional\n\t\t\t\t\tvibration_level\n\t\tmandatory\n\t\t\tfuel_consumption\n\t\t\t\tmandatory\n\t\t\t\t\tmeasures\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tl_km\n\t\t\t\t\t\t\tgallon_mile\n\t\t\t\t\t\t\tmiles_gallon\n\t\t\t\tmandatory\n\t\t\t\t\tmethods\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tdistance\n\t\t\t\t\t\t\ttype_of_driving\n\t\t\t\t\t\t\tdrive\n\t\t\t\t\t\t\tterrain\n\t\toptional\n\t\t\tdiagnostics\n\t\t\t\tmandatory\n\t\t\t\t\terror_codes\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tengine_code\n\t\t\t\t\t\t\ttransmission_code\n\t\t\t\t\t\t\tfuel_system_code\nconstraints\n\tdrive requires rpm\n\tengine_performance requires monitor_engine_system",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735824,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_e7b4d9a9a9",
+  "usage": {
+    "completion_tokens": 213,
+    "prompt_tokens": 218,
+    "total_tokens": 431,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

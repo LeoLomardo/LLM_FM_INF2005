@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodDTwTVUQhEJyxuK4fL3wRJZ18fO",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\t_id_0\n\t\tmandatory\n\t\t\t_id_1\n\t\t\t\tmandatory\n\t\t\t\t\t_id_5\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_6\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_7\n\t\t\t\tmandatory\n\t\t\t\t\t_id_8\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_9\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_10\n\t\t\t\toptional\n\t\t\t\t\t_id_1_49\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_1_49_50\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_1_49_51\n\t\tmandatory\n\t\t\t_id_11\n\t\t\t\toptional\n\t\t\t\t\t_id_12\n\t\t\t\toptional\n\t\t\t\t\t_id_13\n\t\t\t\tmandatory\n\t\t\t\t\t_id_14\n\t\tmandatory\n\t\t\t_id_19\n\t\t\t\toptional\n\t\t\t\t\t_id_20\n\t\t\t\toptional\n\t\t\t\t\t_id_22\n\t\t\t\toptional\n\t\t\t\t\t_id_19_57\n\t\tmandatory\n\t\t\t_id_23\n\t\t\t\tmandatory\n\t\t\t\t\t_id_24\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_25\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_26\n\t\t\t\tmandatory\n\t\t\t\t\t_id_27\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_28\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_30\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_27_39\n\t\t\t\toptional\n\t\t\t\t\t_id_23_60\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_23_60_61\n\t\toptional\n\t\t\t_id_31\n\t\t\t\toptional\n\t\t\t\t\t_id_32\n\t\t\t\toptional\n\t\t\t\t\t_id_33\n\t\t\t\toptional\n\t\t\t\t\t_id_34\n\t\tmandatory\n\t\t\t_id_0_41\n\t\t\t\toptional\n\t\t\t\t\t_id_0_41_42\n\t\t\t\tmandatory\n\t\t\t\t\t_id_0_41_43\n\t\t\t\toptional\n\t\t\t\t\t_id_0_41_59\n\t\toptional\n\t\t\t_id_0_44\n\t\t\t\toptional\n\t\t\t\t\t_id_0_44_45\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_0_44_45_46\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_0_44_45_47\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_0_44_45_49\n\t\t\t\toptional\n\t\t\t\t\t_id_0_44_51\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_0_44_51_52\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_0_44_51_53\n\t\tmandatory\n\t\t\t_id_0_50\n\t\t\t\toptional\n\t\t\t\t\t_id_0_50_51\n\t\t\t\tmandatory\n\t\t\t\t\t_id_0_50_52\n\t\t\t\toptional\n\t\t\t\t\t_id_0_50_58\n\t\toptional\n\t\t\t_id_0_39\n\t\t\t\tmandatory\n\t\t\t\t\t_id_0_39_40\n\t\t\t\toptional\n\t\t\t\t\t_id_0_39_41\n\t\toptional\n\t\t\t_id_0_42\n\t\t\t\tmandatory\n\t\t\t\t\t_id_0_42_43\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_0_42_43_45\n\t\toptional\n\t\t\t_id_0_46\n\t\t\t\tmandatory\n\t\t\t\t\t_id_0_46_47\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_0_46_47_48\n\t\toptional\n\t\t\t_id_0_54\n\t\t\t\tmandatory\n\t\t\t\t\t_id_0_54_55\n\t\t\t\toptional\n\t\t\t\t\t_id_0_54_56\n\t\toptional\n\t\t\t_id_0_62\n\t\t\t\tmandatory\n\t\t\t\t\t_id_0_62_63\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_0_62_64\n\t\t\t\tmandatory\n\t\t\t\t\t_id_0_62_65\nconstraints\n\t_id_0_44_45 requires _id_0_46_47\n\t_id_0_44_45 requires _id_0_42_43\n\t_id_27 requires _id_0_44_45\n\t_id_0_62 requires _id_1_49\n\t_id_0_62_63 requires _id_0_50_52",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735855,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_9400314673",
+  "usage": {
+    "completion_tokens": 876,
+    "prompt_tokens": 844,
+    "total_tokens": 1720,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

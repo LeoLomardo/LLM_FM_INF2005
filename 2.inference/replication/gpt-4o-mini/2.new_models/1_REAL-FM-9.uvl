@@ -1,0 +1,45 @@
+features
+	james
+		mandatory
+			user_mngt
+				alternative
+					db
+					ldap
+		optional
+			ws_interface
+		mandatory
+			gui
+				or
+					pc
+					pda
+		mandatory
+			core
+		mandatory
+			modules
+				or
+					calendar
+					forum
+					congress_mngt
+					repository
+		optional
+			notifications
+				alternative
+					email
+					sms
+					push
+		mandatory
+			security
+				multiple
+					authentication
+						or
+							oauth
+							saml
+					encryption
+						mandatory
+							ssl
+							tls
+constraints
+	pda excludes repository
+	congress_mngt requires repository
+	notifications.email requires ws_interface
+	gui.pc excludes notifications.sms

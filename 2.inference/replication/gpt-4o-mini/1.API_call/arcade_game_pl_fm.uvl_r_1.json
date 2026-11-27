@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodD4p6TMRkpK14C6FHmfgz6VkMar",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tArcade_Game\n\t\tmandatory\n\t\t\tUse_Cases\n\t\t\t\toptional\n\t\t\t\t\tcheck_previous_best_score\n\t\t\t\toptional\n\t\t\t\t\tsave_score\n\t\t\t\tmandatory\n\t\t\t\t\tSave_Game\n\t\t\t\tmandatory\n\t\t\t\t\tExit_Game\n\t\t\t\tmandatory\n\t\t\t\t\tInstall_Game\n\t\t\t\tmandatory\n\t\t\t\t\tUninstall_Game\n\t\t\t\tmandatory\n\t\t\t\t\tList_Game\n\t\t\t\tmandatory\n\t\t\t\t\tPlay_Game\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tplay_brickles\n\t\t\t\t\t\t\tplay_pong\n\t\t\t\t\t\t\tplay_bowling\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tInitialization\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tAnimation_Loop\n\t\tmandatory\n\t\t\tClass_Diagram\n\t\t\t\tmandatory\n\t\t\t\t\tgame_sprite\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tsprite_pair\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tRectangle\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tSize\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tPoint\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tMovable_Sprite\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\tVelocity\n\t\t\t\t\t\t\t\tor\n\t\t\t\t\t\t\t\t\tPaddle\n\t\t\t\t\t\t\t\t\t\tor\n\t\t\t\t\t\t\t\t\t\t\ttop_paddle_pong\n\t\t\t\t\t\t\t\t\t\t\tbottom_paddle_pong\n\t\t\t\t\t\t\t\t\tpuck_core_assets\n\t\t\t\t\t\t\t\t\tball_bowling\n\t\t\t\t\t\t\t\t\tpin_bowling\n\t\t\t\t\t\t\tStationary_Sprite\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\tWall\n\t\t\t\t\t\t\t\t\t\tor\n\t\t\t\t\t\t\t\t\t\t\tleft_wall_pong\n\t\t\t\t\t\t\t\t\t\t\tright_wall_pong\n\t\t\t\t\t\t\t\t\t\t\tleft_brickles\n\t\t\t\t\t\t\t\t\t\t\tright_brickles\n\t\t\t\t\t\t\t\tor\n\t\t\t\t\t\t\t\t\tbrick_brickles\n\t\t\t\t\t\t\t\t\tbrick_pile_brickles\n\t\t\t\t\t\t\t\t\tceiling_brickles\n\t\t\t\t\t\t\t\t\tfloor_brickles\n\t\t\t\t\t\t\t\t\tlane_bowling\n\t\t\t\t\t\t\t\t\tgutter_bowling\n\t\t\t\t\t\t\t\t\tedge_bowling\n\t\t\t\t\t\t\t\t\talley_bowling\n\t\t\t\t\t\t\t\t\track_pins_bowling\n\t\t\t\t\t\t\t\t\tscore_board_pong\n\t\t\t\t\t\t\t\t\tfloor_pong\n\t\t\t\t\t\t\t\t\tceiling_pong\n\t\t\t\t\t\t\t\t\tdividing_line_pong\n\t\t\t\toptional\n\t\t\t\t\tpuck_supply_brickles\n\t\t\t\tmandatory\n\t\t\t\t\tBoard\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tboard_pong\n\t\t\t\t\t\t\tboard_brickles\n\t\t\t\t\t\t\tboard_bowling\n\t\t\t\t\t\t\tboard_arcade\n\t\t\t\tmandatory\n\t\t\t\t\tMenu\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tmenu_pong\n\t\t\t\t\t\t\tmenu_brickles\n\t\t\t\t\t\t\tmenu_bowling\n\t\t\t\t\t\t\tmenu_arcade\n\t\t\t\tmandatory\n\t\t\t\t\tGame_Menu\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tpong_game_menu\n\t\t\t\t\t\t\tbrickles_game_menu\n\t\t\t\t\t\t\tbowling_game_menu\n\t\t\t\t\t\t\tarcade_game_menu\n\t\t\t\tmandatory\n\t\t\t\t\tPlayer_Statistics\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tHigh_Scores\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tPlayer_Name\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tPlayer_Achievements\nconstraints\n\tplay_brickles requires menu_brickles\n\tplay_brickles requires menu_brickles\n\tplay_pong requires menu_pong\n\tplay_pong requires menu_pong\n\tplay_bowling requires menu_bowling\n\tplay_bowling requires menu_bowling\n\ttop_paddle_pong requires menu_pong\n\tbottom_paddle_pong requires menu_pong\n\tleft_wall_pong requires menu_pong\n\tright_wall_pong requires menu_pong\n\tscore_board_pong requires menu_pong\n\tfloor_pong requires menu_pong\n\tceiling_pong requires menu_pong\n\tdividing_line_pong requires menu_pong\n\tboard_pong requires menu_pong\n\tpong_game_menu requires menu_pong\n\tboard_bowling requires menu_bowling\n\tball_bowling requires menu_bowling\n\tpin_bowling requires menu_bowling\n\tlane_bowling requires menu_bowling\n\tgutter_bowling requires menu_bowling\n\tedge_bowling requires menu_bowling\n\talley_bowling requires menu_bowling\n\track_pins_bowling requires menu_bowling\n\tbowling_game_menu requires menu_bowling\n\tbrickles_game_menu requires menu_brickles\n\tboard_brickles requires menu_brickles\n\tleft_brickles requires menu_brickles\n\tright_brickles requires menu_brickles\n\tbrick_pile_brickles requires menu_brickles\n\tbrick_brickles requires menu_brickles\n\tceiling_brickles requires menu_brickles\n\tfloor_brickles requires menu_brickles\n\tpuck_supply_brickles requires menu_brickles\n\tplayer_statistics requires menu_arcade\n\tarcade_game_menu requires menu_arcade\n\tboard_arcade requires menu_arcade\n\thigh_scores requires menu_arcade\n\tplayer_name requires menu_arcade\n\tplayer_achievements requires menu_arcade",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735830,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_e7b4d9a9a9",
+  "usage": {
+    "completion_tokens": 930,
+    "prompt_tokens": 907,
+    "total_tokens": 1837,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

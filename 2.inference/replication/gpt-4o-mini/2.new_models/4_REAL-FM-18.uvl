@@ -1,0 +1,81 @@
+features
+	doc_gen
+		mandatory
+			analysis
+				mandatory
+					language_analysis
+						or
+							cobol
+								alternative
+									ibm_cobol
+									microfocus_cobol
+							jcl
+							sql
+							delphi
+							progress
+				optional
+					version_mngt
+				optional
+					subsystems
+		mandatory
+			presentation
+				mandatory
+					localization
+						or
+							english
+							dutch
+							german
+							french
+				mandatory
+					interaction
+						alternative
+							static
+							dynamic
+				mandatory
+					main_pages
+						or
+							program_page
+								or
+									annotation_section
+									activation_section
+									entities_section
+									parameters_section
+							copybook_page
+							statistics_page
+								alternative
+									with_history
+									without_history
+							indexes
+							search_page
+							subsystem_page
+							source_page
+							source_difference
+							help_page
+				optional
+					visualizations
+						or
+							perform_graph
+							conditional_perform_graph
+							jcl_graph
+							subsystem_graph
+							overview_graph
+							detailed_view_graph
+		mandatory
+			database
+				alternative
+					db2
+					oracle
+					mysql
+					sqlserver
+					postgresql
+constraints
+	subsystem_page requires subsystems
+	subsystem_graph requires subsystems
+	source_difference requires version_mngt
+	perform_graph requires cobol
+	conditional_perform_graph requires cobol
+	jcl_graph requires jcl
+	static excludes annotation_section
+	static excludes search_page
+	help_page requires localization
+	detailed_view_graph requires visualizations

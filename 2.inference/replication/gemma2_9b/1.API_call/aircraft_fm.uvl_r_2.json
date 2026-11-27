@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:22:04.922077933Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tAircraft\n\t\tmandatory\n\t\t\tWing\n\t\t\t\tor\n\t\t\t\t\tHigh\n\t\t\t\t\tShoulder\n\t\t\t\t\tLow\n\t\toptional\n\t\t\tEngine\n\t\t\t\talternative\n\t\t\t\t\tJet\n\t\t\t\t\tPiston\n\t\tmandatory\n\t\t\tMaterials\n\t\t\t\tor\n\t\t\t\t\tMetal\n\t\t\t\t\tWood\n\t\t\t\t\tCloth\n\t\t\t\t\tPlastic\n\t\tconditional\n\t\t\tSize\n\t\t\t\ton\tAircraft.Wing == High\n\t\t\t\t\tmandatory\n\t\t\t\t\t\tLarge"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4809800464,
+  "load_duration": 186247684,
+  "prompt_eval_count": 143,
+  "prompt_eval_duration": 213731000,
+  "eval_count": 81,
+  "eval_duration": 4406280000
+}

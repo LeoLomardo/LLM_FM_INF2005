@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:20:27.556763152Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tjplug\n\t\tmandatory\n\t\t\tinterface\n\t\t\t\talternative\n\t\t\t\t\tsdi\n\t\t\t\t\tmdi\n\t\toptional\n\t\t\tgui_builder\n\t\t\t\tmandatory\n\t\t\t\t\tjava\n\t\t\t\toptional\n\t\t\t\t\tqt\n\t\toptional\n\t\t\tmodel_code_synch\n\t\toptional\n\t\t\tcompiler\n\t\t\t\tor\n\t\t\t\t\tjavac\n\t\t\t\t\tmvc\n\t\toptional\n\t\t\tdiagram_builder\n\t\t\t\tmandatory\n\t\t\t\t\tuml\n\t\t\t\toptional\n\t\t\t\t\tpetri_net\nconstraints\n\tgui_builder excludes sdi\n\tmodel_code_synch requires diagram_builder\n\tjava implies gui_builder \n\tqt implies gui_builder\n\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 7410813330,
+  "load_duration": 226457211,
+  "prompt_eval_count": 196,
+  "prompt_eval_duration": 234182000,
+  "eval_count": 129,
+  "eval_duration": 6942026000
+}

@@ -1,0 +1,106 @@
+features
+	web_portal
+		optional
+			add_services
+				optional
+					site_stats
+						mandatory
+							basic
+						optional
+							advanced
+				optional
+					site_search
+						optional
+							images
+						optional
+							text
+								mandatory
+									html
+								optional
+									dynamic
+				optional
+					ad_server
+						mandatory
+							reports
+						optional
+							popups
+						mandatory
+							banners
+								mandatory
+									ban_img
+								optional
+									ban_flash
+						optional
+							keyword
+				optional
+					notifications
+						optional
+							email
+						optional
+							sms
+						mandatory
+							push
+		mandatory
+			web_server
+				optional
+					logging
+						alternative
+							db
+							file
+				optional
+					protocol
+						or
+							nttp
+							ftp
+							https
+				mandatory
+					cont
+						mandatory
+							static
+						optional
+							active
+								or
+									asp
+									php
+									jsp
+									cgi
+				optional
+					load_balancing
+						optional
+							round_robin
+						optional
+							least_connections
+		optional
+			persistence
+				alternative
+					xml
+					database
+					json
+		optional
+			ri
+				or
+					data_storage
+					data_transfer
+					user_auth
+		optional
+			performance
+				alternative
+					ms
+					sec
+					min
+				optional
+					caching
+						mandatory
+							memcached
+						optional
+							redis
+constraints
+	data_transfer requires https
+	db requires database
+	https excludes ms
+	file requires ftp
+	keyword requires text
+	dynamic requires active
+	notifications requires web_portal
+	load_balancing requires web_server
+	caching requires performance

@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-26T23:47:21.232110551Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tkwic\n\t\tmandatory\n\t\t\tinput_output\n\t\t\t\tor\n\t\t\t\t\tfile\n\t\t\t\t\tconsole\n\t\tmandatory\n\t\t\tcircular_shift\n\t\t\t\tmandatory\n\t\t\t\t\tshift_data\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\timplicit\n\t\t\t\t\t\t\texplicit\n\t\t\t\toptional\n\t\t\t\t\tcompression\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tshift_processing\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\teach_line\n\t\t\t\t\t\t\tall_lines\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tnoise_words\n\t\tmandatory\n\t\t\talpha_sort\n\t\t\t\tmandatory\n\t\t\t\t\torder\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tdescendant\n\t\t\t\t\t\t\tascendant\n\t\t\t\tmandatory\n\t\t\t\t\tcase_sensitivity\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tsensitive\n\t\t\t\t\t\t\tinsensitive\n\t\tmandatory\n\t\t\tarch_style\n\t\t\t\talternative\n\t\t\t\t\tshared_data\n\t\t\t\t\tadt\n\t\t\t\t\timplicit_invocation\n\t\t\t\t\tpipe_and_filter\nconstraints\n\tcompression requires explicit\n\tpipe_and_filter requires all_lines\n\tpipe_and_filter requires explicit\n\texplicit requires shift_processing\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 11027218977,
+  "load_duration": 202375881,
+  "prompt_eval_count": 266,
+  "prompt_eval_duration": 233581000,
+  "eval_count": 191,
+  "eval_duration": 10587290000
+}

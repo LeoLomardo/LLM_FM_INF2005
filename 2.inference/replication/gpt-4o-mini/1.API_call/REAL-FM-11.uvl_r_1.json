@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodBhhMHy9CYj3eAxgojQqEYRyV4P",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\t_id_0\n\t\tmandatory\n\t\t\t_id_1\n\t\t\t\tmandatory\n\t\t\t\t\t_id_2\n\t\t\t\tmandatory\n\t\t\t\t\t_id_3\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_4\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t_id_5\n\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\t_id_6\n\t\t\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\t\t\t_id_8\n\t\t\t\t\t\t\t\t\t\t\t\t\t_id_9\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_10\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t_id_11\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t_id_12\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\tmessage\n\t\t\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t\t\t_id_13\n\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\t_id_14\n\t\t\t\tmandatory\n\t\t\t\t\t_id_15\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_16\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t_id_17\n\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\t_id_18\n\t\t\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\t\t\t_id_20\n\t\t\t\t\t\t\t\t\t\t\t\t\t_id_21\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_22\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\twater\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\t_id_23\n\t\t\t\toptional\n\t\t\t\t\tflood\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_24\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t_id_25\n\t\t\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t\t\t_id_26\n\t\t\t\t\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t\t\t\t\t_id_28\n\t\t\t\t\t\t\t\t\t\t\t\t\t_id_29\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_30\n\t\t\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t\t\t_id_31\n\t\t\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t\t\tpumping\n\t\tmandatory\n\t\t\t_id_32\n\t\t\t\tmandatory\n\t\t\t\t\t_id_33\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t_id_35\n\t\t\t\t\t\t\t_id_36\n\t\toptional\n\t\t\tcommunication\n\t\t\t\tmandatory\n\t\t\t\t\t_id_37\n\t\t\t\toptional\n\t\t\t\t\t_id_38\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_39\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t_id_41\n\t\t\t\t\t\t\t\t\t_id_42\n\t\tmandatory\n\t\t\t_id_43\n\t\t\t\tmandatory\n\t\t\t\t\t_id_44\n\t\t\t\tmandatory\n\t\t\t\t\t_id_45\n\t\t\t\toptional\n\t\t\t\t\tmoisture_sensor\n\t\tmandatory\n\t\t\t_id_46\n\t\t\t\tmandatory\n\t\t\t\t\tsprinkler\n\t\t\t\toptional\n\t\t\t\t\tsump_pump\n\t\tmandatory\n\t\t\t_id_47\n\t\t\t\tmandatory\n\t\t\t\t\t_id_48\n\t\t\t\tmandatory\n\t\t\t\t\t_id_49\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_50\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_51\n\t\t\t\tmandatory\n\t\t\t\t\t_id_52\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_53\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_54\n\t\t\t\tmandatory\n\t\t\t\t\t_id_55\n\t\tmandatory\n\t\t\t_id_56\n\t\t\t\tmandatory\n\t\t\t\t\t_id_57\n\t\t\t\tmandatory\n\t\t\t\t\t_id_58\n\t\t\t\tmandatory\n\t\t\t\t\t_id_59\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_60\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\t_id_62\n\t\t\t\t\t\t\t\t\t_id_63\n\t\t\t\tmandatory\n\t\t\t\t\t_id_64\n\t\toptional\n\t\t\tmaintenance\n\t\t\t\tmandatory\n\t\t\t\t\t_id_65\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_66\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_67\n\t\t\t\tmandatory\n\t\t\t\t\t_id_68\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\t_id_69\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t_id_70\nconstraints\n\twater requires sprinkler\n\tpumping requires sump_pump\n\tmessage requires communication\n\tflood requires moisture_sensor\n\tmaintenance requires communication",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735745,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_c5132eba0e",
+  "usage": {
+    "completion_tokens": 729,
+    "prompt_tokens": 736,
+    "total_tokens": 1465,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

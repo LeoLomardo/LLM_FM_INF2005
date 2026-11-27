@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-26T23:48:53.516694662Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tdvs\n\t\tmandatory\n\t\t\tcontrol\n\t\t\t\tmandatory\n\t\t\t\t\tremote\n\t\t\t\toptional\n\t\t\t\t\ttelephone\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tsms\n\t\t\t\toptional\n\t\t\t\t\tnet\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tweb\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\twap\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\temail\n\t\t\t\toptional\n\t\t\t\t\tedit\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tadd_music\n\t\t\t\tmandatory\n\t\t\t\t\tplay\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tslides\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\taudio\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tvideo\n\t\toptional\n\t\t\tnetwork_hw\n\t\t\t\toptional\n\t\t\t\t\tmodem\n\t\t\t\toptional\n\t\t\t\t\tethernet\n\t\tmandatory\n\t\t\tserver_pc\n\t\t\t\toptional\n\t\t\t\t\tnetwork\n\t\t\t\toptional\n\t\t\t\t\tirda_port\n\t\tmandatory\n\t\t\t_play\n\t\t\t\toptional\n\t\t\t\t\ton_demand\n\t\toptional\n\t\t\tclient_pc\n\t\t\t\toptional\n\t\t\t\t\t_network\n\t\toptional\n\t\t\thandheld\n\t\t\t\toptional\n\t\t\t\t\tdisplay\n\t\tconstraints\n\tnet requires network_hw\n\thandheld requires irda_port\n\tadd_music requires audio\n\tvideo requires display"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 11791987472,
+  "load_duration": 180834541,
+  "prompt_eval_count": 281,
+  "prompt_eval_duration": 179555000,
+  "eval_count": 210,
+  "eval_duration": 11428758000
+}

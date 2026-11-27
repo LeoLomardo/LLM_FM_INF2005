@@ -1,0 +1,46 @@
+features
+	CFDP_Library
+		or
+			send
+				optional
+					Send_Acknowledged_Mode
+				optional
+					send_fs_operations
+				optional
+					send_priority
+				optional
+					send_encryption
+			receive
+				optional
+					Receive_Acknowledged_Mode
+				optional
+					receive_fs_operations
+				optional
+					receive_timeout
+				optional
+					receive_encryption
+			pus
+				optional
+					pus_rename
+				optional
+					pus_copy
+				optional
+					pus_logging
+			Reboot
+				optional
+					Reboot_Entity
+				optional
+					reboot_pus
+				optional
+					reboot_timeout
+constraints
+	pus_copy requires send
+	pus_copy requires receive
+	pus_rename requires send_fs_operations
+	pus_rename requires receive_fs_operations
+	reboot_pus requires pus
+	send_priority requires send
+	send_encryption requires send
+	receive_timeout requires receive
+	receive_encryption requires receive
+	pus_logging requires pus

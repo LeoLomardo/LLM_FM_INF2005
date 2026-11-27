@@ -18,13 +18,26 @@ As chaves são lidas **somente do `.env`** (que tem prioridade sobre variáveis 
 |---|---|
 | `SPLC'23.ipynb` | notebook **original** dos autores (não editar — referência da reprodução) |
 | `SPLC23_atualizado.ipynb` | notebook corrigido/atualizado (roda local; flags `RUN_*` para chamadas pagas) |
-| `replication/` | config (`.env`), geração com LLM (OpenAI/Ollama), embeddings Cohere v2 API |
+| `replication/` | `config` (.env), `generate` (geração em lote), `funnel` (avaliação RQ1–RQ4), `llm`, `embeddings` |
 | `fm_characterization/` | métricas/análise de FMs dos autores (com correção de API do flamapy-sat) |
 | `1.model_selection/` | 1215 modelos SPLOT (FamaXML) e os 30 selecionados em UVL |
 | `2.inference/1.API_call/` | 150 respostas originais do Codex (somente leitura) |
 | `2.inference/replication/<modelo>/` | saídas da replicação com LLMs atuais |
 | `3.results/` | embeddings originais (`2.cohere`), recalculados (`3.cohere_v3`), CSV e figuras |
 | `Documentos/Artigo/` | artigo em LaTeX (`acmart`) |
+
+## Como rodar (passo a passo)
+1. **Ambiente** (uma vez): `./scripts/setup_env.sh` e preencher o `.env` (`OPENAI_API_KEY`, `COHERE_API_KEY`).
+2. **Ollama** (para o LLM local): `ollama serve` rodando e `ollama pull gemma2:9b`.
+3. **Pipeline completo** (geração + funil, retomável): `./scripts/run_pipeline.sh`
+   - ou por partes: `python -m replication.generate --provider openai`,
+     `python -m replication.generate --provider ollama --model gemma2:9b`, `python -m replication.funnel`.
+4. **Notebook**: `source .venv/bin/activate && jupyter lab SPLC23_atualizado.ipynb`
+   (ou abrir no VS Code e escolher o kernel **Python (splc23-llm)**) → *Run All*.
+   As células de API ficam desligadas (`RUN_* = False`); o notebook lê o que já foi gerado.
+
+Saídas: variantes em `2.inference/replication/<modelo>/`, funil em `3.results/funnel/`
+(`funnel_variants.csv` por variante, `funnel_summary.csv` por LLM, `rq1_tests.csv`), figuras em `3.results/figures/`.
 
 ## LLM local (Ollama)
 No `.env`: `OPENAI_BASE_URL=http://localhost:11434/v1`, `OPENAI_MODEL=llama3.1:8b`, `OPENAI_API_KEY=ollama`.

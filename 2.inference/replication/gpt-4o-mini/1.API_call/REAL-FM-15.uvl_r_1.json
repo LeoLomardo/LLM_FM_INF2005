@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodByKL2aLuYF1qjDxusv6D2zI1at",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tkwic\n\t\tmandatory\n\t\t\tinput_output\n\t\t\t\tor\n\t\t\t\t\tfile\n\t\t\t\t\tconsole\n\t\tmandatory\n\t\t\tcircular_shift\n\t\t\t\tmandatory\n\t\t\t\t\tshift_data\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\timplicit\n\t\t\t\t\t\t\texplicit\n\t\t\t\toptional\n\t\t\t\t\tcompression\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tshift_processing\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\teach_line\n\t\t\t\t\t\t\tall_lines\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\tnoise_words\n\t\t\t\t\t\t\tignored_words\n\t\tmandatory\n\t\t\talpha_sort\n\t\t\t\tmandatory\n\t\t\t\t\torder\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tdescendant\n\t\t\t\t\t\t\tascendant\n\t\t\t\tmandatory\n\t\t\t\t\tcase_sensitivity\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tsensitive\n\t\t\t\t\t\t\tinsensitive\n\t\tmandatory\n\t\t\tarch_style\n\t\t\t\talternative\n\t\t\t\t\tshared_data\n\t\t\t\t\tadt\n\t\t\t\t\timplicit_invocation\n\t\t\t\t\tpipe_and_filter\n\t\toptional\n\t\t\toutput_format\n\t\t\t\talternative\n\t\t\t\t\tplain_text\n\t\t\t\t\tjson\n\t\t\t\t\txml\nconstraints\n\tcompression requires explicit\n\tpipe_and_filter requires all_lines\n\tpipe_and_filter requires explicit\n\toutput_format requires input_output\n\tignored_words requires compression",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735762,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_e61d09ff08",
+  "usage": {
+    "completion_tokens": 237,
+    "prompt_tokens": 277,
+    "total_tokens": 514,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:26:22.36501853Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\t_id_0\n\t\toptional\n\t\t\t_id_1\n\t\t\t\tmandatory\n\t\t\t\t\t_id_2\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t_id_4\n\t\t\t\t\t\t\tenhanced_avoidance\n\t\t\t\toptional\n\t\t\t\t\tparallel_parking\n\t\tmandatory\n\t\t\t_id_5\n\t\t\t\toptional\n\t\t\t\t\tlateral_range_finder\n\t\t\t\toptional\n\t\t\t\t\tforward_range_finder\n\t\toptional\n\t\t\t_id_0_10\n\t\t\t_id_0_11\n\t\t\t\talternative\n\t\t\t\t\t_id_0_11_12_13\n\t\t\t\t\t_id_0_11_12_14\n\t\t\t\t\t_id_0_11_12_15\n\t\toptional\n\t\t\t_id_0_16\n\t\t\t\tmandatory\n\t\t\t\t\t_id_0_16_17\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t_id_0_16_17_18\n\t\t\t\t\t\t\t_id_0_16_17_19\nconstraints\n\tenhanced_avoidance requires forward_range_finder\n\t_id_0_16_17 requires _id_0_11"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 13515412545,
+  "load_duration": 182078260,
+  "prompt_eval_count": 247,
+  "prompt_eval_duration": 178183000,
+  "eval_count": 241,
+  "eval_duration": 13151417000
+}

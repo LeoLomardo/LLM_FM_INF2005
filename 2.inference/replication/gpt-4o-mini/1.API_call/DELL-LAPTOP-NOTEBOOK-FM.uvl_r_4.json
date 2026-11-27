@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodBCRkZRzrMB2PO1Q5zNsxjbhQOu",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\t_id_0\n\t\tmandatory\n\t\t\tproductcategory\n\t\t\t\talternative\n\t\t\t\t\tmininotebooks\n\t\t\t\t\tinspironlaptops\n\t\t\t\t\tstudiolaptops\n\t\t\t\t\txpslaptops\n\t\t\t\t\tadamo\n\t\t\t\t\tstudioxpslaptops\n\t\t\t\t\tgaminglaptops\n\t\t\t\t\tultraportables\n\t\tmandatory\n\t\t\toperatingsystem\n\t\t\t\talternative\n\t\t\t\t\twindowsvista64bit\n\t\t\t\t\twindowsxphome\n\t\t\t\t\tubuntulinux\n\t\t\t\t\tmacos\n\t\t\t\t\t_id_2_48\n\t\t\t\t\t_id_2_49\n\t\tmandatory\n\t\t\tharddrive\n\t\t\t\talternative\n\t\t\t\t\thd500gb\n\t\t\t\t\thd320gb\n\t\t\t\t\thd250gb\n\t\t\t\t\thd160gb\n\t\t\t\t\thd128gbsolidstate\n\t\t\t\t\thd120gb\n\t\t\t\t\thd1tb\n\t\toptional\n\t\t\topticaldrive\n\t\t\t\talternative\n\t\t\t\t\tcddvdrw\n\t\t\t\t\tdvdromdriveanddvdrw\n\t\t\t\t\tdvdrwandcdrwcombo\n\t\t\t\t\tbluraydisc\n\t\t\t\t\tnodrive\n\t\tmandatory\n\t\t\tlaptopweight\n\t\t\t\talternative\n\t\t\t\t\tultralight\n\t\t\t\t\tlight\n\t\t\t\t\tdesktopreplacement\n\t\t\t\t\theavyduty\n\t\tmandatory\n\t\t\tmemory\n\t\t\t\talternative\n\t\t\t\t\tmorethan4g\n\t\t\t\t\tmem4gb\n\t\t\t\t\tmem3gb\n\t\t\t\t\tmem2gb\n\t\t\t\t\tmem1gb\n\t\t\t\t\tmem8gb\n\t\tmandatory\n\t\t\tprocessor\n\t\t\t\talternative\n\t\t\t\t\tintelcore2duo\n\t\t\t\t\tintelpentiumdualcore\n\t\t\t\t\tintelceleron\n\t\t\t\t\tintelatom\n\t\t\t\t\tamdryzen5\n\t\t\t\t\tamdryzen7\n\t\tmandatory\n\t\t\tprice\n\t\t\t\talternative\n\t\t\t\t\tlessthanus400\n\t\t\t\t\tus400us800\n\t\t\t\t\tus800us1200\n\t\t\t\t\tmorethanus1200\n\t\toptional\n\t\t\tgraphics\n\t\t\t\talternative\n\t\t\t\t\tintegrated\n\t\t\t\t\tdedicated\n\t\t\t\t\thighend\nconstraints\n\txpslaptops excludes dvdrwandcdrwcombo\n\txpslaptops excludes mem2gb\n\txpslaptops excludes hd80gb\n\txpslaptops excludes dvdromdriveanddvdrw\n\txpslaptops excludes hd128gbsolidstate\n\txpslaptops excludes hd120gb\n\txpslaptops excludes ubuntulinux\n\txpslaptops excludes hd160gb\n\txpslaptops excludes intelceleron\n\txpslaptops excludes intelpentiumdualcore\n\txpslaptops excludes mem1gb\n\txpslaptops excludes gaminglaptops\n\tadamo excludes ubuntulinux\n\tadamo excludes hd500gb\n\tadamo excludes hd320gb\n\txpslaptops excludes intelatom\n\txpslaptops excludes lessthanus400\n\tadamo excludes windowsxphome\n\tadamo excludes hd160gb\n\tadamo excludes hd250gb\n\tadamo excludes hd80gb\n\tadamo excludes hd120gb\n\tinspironlaptops excludes morethan4g\n\tinspironlaptops excludes mem1gb\n\tinspironlaptops excludes ultralight\n\tinspironlaptops excludes desktopreplacement\n\tstudiolaptops excludes windowsxphome\n\tinspironlaptops excludes intelatom\n\tinspironlaptops excludes morethanus1200\n\tstudiolaptops excludes ubuntulinux\n\tstudiolaptops excludes hd160gb\n\tstudiolaptops excludes hd128gbsolidstate\n\tstudiolaptops excludes hd120gb\n\tstudiolaptops excludes hd80gb\n\tstudiolaptops excludes morethan4g\n\tstudiolaptops excludes mem2gb\n\tstudiolaptops excludes mem1gb\n\tstudiolaptops excludes intelceleron\n\tstudiolaptops excludes intelatom\n\tstudiolaptops excludes lessthanus400\n\tstudiolaptops excludes morethanus1200\n\txpslaptops excludes windowsxphome\n\tstudioxpslaptops excludes bluraydisc\n\tstudioxpslaptops excludes dvdrwandcdrwcombo\n\tstudioxpslaptops excludes dvdromdriveanddvdrw\n\tstudioxpslaptops excludes hd80gb\n\tinspironlaptops excludes bluraydisc\n\tinspironlaptops excludes dvdrwandcdrwcombo\n\tinspironlaptops excludes dvdromdriveanddvdrw\n\tinspironlaptops excludes windowsxphome\n\tinspironlaptops excludes windowsvista64bit\n\tmininotebooks excludes morethanus1200\n\tinspironlaptops excludes hd80gb\n\tinspironlaptops excludes hd120gb\n\tinspironlaptops excludes hd128gbsolidstate\n\tinspironlaptops excludes ubuntulinux\n\tstudioxpslaptops excludes morethanus1200\n\tmininotebooks excludes intelpentiumdualcore\n\tmininotebooks excludes intelcore2duo\n\tmininotebooks excludes us800us1200\n\tmininotebooks excludes intelceleron\n\tmininotebooks excludes light\n\tmininotebooks excludes bluraydisc\n\tmininotebooks excludes morethan4g\n\tmininotebooks excludes desktopreplacement\n\tmininotebooks excludes mem3gb\n\tmininotebooks excludes mem4gb\n\tadamo excludes bluraydisc\n\tstudioxpslaptops excludes desktopreplacement\n\tadamo excludes dvdrwandcdrwcombo\n\tstudioxpslaptops excludes morethan4g\n\tadamo excludes dvdromdriveanddvdrw\n\tadamo excludes cddvdrw\n\tadamo excludes desktopreplacement\n\tadamo excludes light\n\tstudioxpslaptops excludes us400us800\n\tstudioxpslaptops excludes lessthanus400\n\tadamo excludes morethan4g\n\tstudioxpslaptops excludes intelatom\n\tstudioxpslaptops excludes intelceleron\n\tstudioxpslaptops excludes intelpentiumdualcore\n\tadamo excludes intelpentiumdualcore\n\tstudioxpslaptops excludes mem1gb\n\tadamo excludes intelceleron\n\tstudioxpslaptops excludes mem2gb\n\tadamo excludes mem3gb\n\tadamo excludes mem1gb\n\tstudioxpslaptops excludes mem3gb\n\tmininotebooks excludes hd128gbsolidstate\n\tadamo excludes lessthanus400\n\tmininotebooks excludes hd250gb\n\tadamo excludes intelatom\n\tmininotebooks excludes hd320gb\n\tadamo excludes us800us1200\n\tmininotebooks excludes hd500gb\n\tadamo excludes us400us800\n\tmininotebooks excludes dvdrwandcdrwcombo\n\tmininotebooks excludes dvdromdriveanddvdrw\n\tmininotebooks excludes cddvdrw\n\tstudioxpslaptops excludes windowsxphome\n\tstudioxpslaptops excludes ubuntulinux\n\tstudioxpslaptops excludes hd250gb\n\tmininotebooks excludes windowsvista64bit\n\tstudioxpslaptops excludes hd160gb\n\tstudioxpslaptops excludes hd128gbsolidstate\n\tstudioxpslaptops excludes hd120gb\n\tgaminglaptops excludes hd80gb\n\tgaminglaptops excludes mem2gb\n\tgaminglaptops excludes morethanus1200\n\tgaminglaptops excludes intelatom\n\tgaminglaptops excludes ubuntulinux\n\tgaminglaptops excludes hd160gb\n\tgaminglaptops excludes hd128gbsolidstate\n\tgaminglaptops excludes hd120gb\n\tgaminglaptops excludes lessthanus400\n\tgaminglaptops excludes intelceleron\n\tgaminglaptops excludes intelpentiumdualcore\n\tgaminglaptops excludes mem1gb\n\tultraportables excludes desktopreplacement\n\tultraportables excludes gaminglaptops\n\tultraportables excludes morethanus1200\n\tultraportables excludes intelatom\n\tultraportables excludes hd160gb\n\tultraportables excludes hd128gbsolidstate\n\tultraportables excludes hd120gb\n\tultraportables excludes lessthanus400\n\tultraportables excludes intelceleron\n\tultraportables excludes intelpentiumdualcore\n\tultraportables excludes mem1gb",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735714,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_5632fb73e4",
+  "usage": {
+    "completion_tokens": 1719,
+    "prompt_tokens": 1481,
+    "total_tokens": 3200,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 1408,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

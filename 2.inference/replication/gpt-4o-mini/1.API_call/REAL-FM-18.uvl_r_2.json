@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-EodC82VW8EG3Hm4DrYYQgh8ufqTLv",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "features\n\tdoc_gen\n\t\tmandatory\n\t\t\tanalysis\n\t\t\t\tmandatory\n\t\t\t\t\tlanguage_analysis\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tcobol\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\tibm_cobol\n\t\t\t\t\t\t\t\t\tmicrofocus_cobol\n\t\t\t\t\t\t\tjcl\n\t\t\t\t\t\t\tsql\n\t\t\t\t\t\t\tdelphi\n\t\t\t\t\t\t\tprogress\n\t\t\t\t\t\t\truby\n\t\t\t\t\t\t\tpython\n\t\t\t\toptional\n\t\t\t\t\tversion_mngt\n\t\t\t\toptional\n\t\t\t\t\tsubsystems\n\t\tmandatory\n\t\t\tpresentation\n\t\t\t\tmandatory\n\t\t\t\t\tlocalization\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tenglish\n\t\t\t\t\t\t\tdutch\n\t\t\t\t\t\t\tgerman\n\t\t\t\t\t\t\tfrench\n\t\t\t\tmandatory\n\t\t\t\t\tinteraction\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tstatic\n\t\t\t\t\t\t\tdynamic\n\t\t\t\tmandatory\n\t\t\t\t\tmain_pages\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tprogram_page\n\t\t\t\t\t\t\t\tor\n\t\t\t\t\t\t\t\t\tannotation_section\n\t\t\t\t\t\t\t\t\tactivation_section\n\t\t\t\t\t\t\t\t\tentities_section\n\t\t\t\t\t\t\t\t\tparameters_section\n\t\t\t\t\t\t\tcopybook_page\n\t\t\t\t\t\t\tstatistics_page\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\twith_history\n\t\t\t\t\t\t\t\t\twithout_history\n\t\t\t\t\t\t\tindexes\n\t\t\t\t\t\t\tsearch_page\n\t\t\t\t\t\t\tsubsystem_page\n\t\t\t\t\t\t\tsource_page\n\t\t\t\t\t\t\tsource_difference\n\t\t\t\t\t\t\treport_page\n\t\t\t\toptional\n\t\t\t\t\tvisualizations\n\t\t\t\t\t\tor\n\t\t\t\t\t\t\tperform_graph\n\t\t\t\t\t\t\tconditional_perform_graph\n\t\t\t\t\t\t\tjcl_graph\n\t\t\t\t\t\t\tsubsystem_graph\n\t\t\t\t\t\t\toverview_graph\n\t\t\t\t\t\t\tactivity_graph\n\t\tmandatory\n\t\t\tdatabase\n\t\t\t\talternative\n\t\t\t\t\tdb2\n\t\t\t\t\toracle\n\t\t\t\t\tmysql\n\t\t\t\t\tpostgresql\n\t\t\t\t\tsqlserver\nconstraints\n\tsubsystem_page requires subsystems\n\tsubsystem_graph requires subsystems\n\tsource_difference requires version_mngt\n\tperform_graph requires cobol\n\tconditional_perform_graph requires cobol\n\tjcl_graph requires jcl\n\tstatic excludes annotation_section\n\tstatic excludes search_page\n\tdynamic requires version_mngt\n\treport_page requires analysis\n\tactivity_graph requires visualizations",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1795735772,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "metadata": null,
+  "moderation": null,
+  "service_tier": "default",
+  "system_fingerprint": "fp_f6d5921f1d",
+  "usage": {
+    "completion_tokens": 382,
+    "prompt_tokens": 408,
+    "total_tokens": 790,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0,
+      "text_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null
+    }
+  }
+}

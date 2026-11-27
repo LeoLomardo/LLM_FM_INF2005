@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:26:44.591532405Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tCFDP_Library\n\t\tor\n\t\t\tsend\n\t\t\t\toptional\n\t\t\t\t\tSend_Acknowledged_Mode\n\t\t\t\toptional\n\t\t\t\t\tsend_fs_operations\n\t\t\treceive\n\t\t\t\toptional\n\t\t\t\t\tReceive_Acknowledged_Mode\n\t\t\t\toptional\n\t\t\t\t\treceive_fs_operations\n\t\t\tpus\n\t\t\t\toptional\n\t\t\t\t\tpus_rename\n\t\t\t\toptional\n\t\t\t\t\tpus_copy\n\t\t\tReboot\n\t\t\t\toptional\n\t\t\t\t\tReboot_Entity\n\t\t\t\toptional\n\t\t\t\t\treboot_pus\n\tProtocolConfiguration\n\t\tor\n\t\t\tSecurityLevel\n\t\t\t\toptional\n\t\t\t\t\tEncryption\n\t\t\t\toptional\n\t\t\t\t\tAuthentication\n\t\t\tDataRate\n\t\t\t\toptional\n\t\t\t\t\tFast \n\t\t\t\toptional\n\t\t\t\t\tNormal \nconstraints\n\tpus_copy requires send\n\tpus_copy requires receive\n\tpus_rename requires send_fs_operations\n\tpus_rename requires receive_fs_operations\n\treboot_pus requires pus"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 10692573707,
+  "load_duration": 189020259,
+  "prompt_eval_count": 225,
+  "prompt_eval_duration": 411844000,
+  "eval_count": 183,
+  "eval_duration": 9998921000
+}

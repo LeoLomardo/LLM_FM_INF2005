@@ -48,6 +48,9 @@ def get_openai_client():
     from openai import OpenAI
 
     base_url = env("OPENAI_BASE_URL")
+    if not base_url:
+        # OPENAI_BASE_URL= (vazio) no .env faria o SDK usar "" como URL
+        os.environ.pop("OPENAI_BASE_URL", None)
     api_key = env("OPENAI_API_KEY", required=not base_url) or "ollama"
     return OpenAI(api_key=api_key, base_url=base_url) if base_url else OpenAI(api_key=api_key)
 

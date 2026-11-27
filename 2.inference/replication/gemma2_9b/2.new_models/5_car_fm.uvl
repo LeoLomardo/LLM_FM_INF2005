@@ -1,0 +1,36 @@
+features
+	_id_0
+		optional
+			_id_1
+				mandatory
+					_id_2
+						alternative
+							_id_4
+							enhanced_avoidance
+				optional
+					parallel_parking
+		mandatory
+			_id_5
+				optional
+					lateral_range_finder
+					forward_range_finder
+		optional
+			_id_0_10
+		optional
+			_id_0_11
+				alternative
+					_id_0_11_12_13
+					_id_0_11_12_14
+					_id_0_11_12_15
+	mandatory
+		_id_6
+			optional
+				_id_7
+					alternative
+						_id_8
+						_id_9
+
+
+constraints
+	enhanced_avoidance requires forward_range_finder
+	_id_7 requires _id_0_10

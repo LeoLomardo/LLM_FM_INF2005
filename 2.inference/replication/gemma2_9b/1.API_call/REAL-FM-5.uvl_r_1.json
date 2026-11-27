@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-27T00:17:48.171154918Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\t_r\n\t\tmandatory\n\t\t\t_r_3\n\t\t\t\talternative\n\t\t\t\t\t_r_3_4_5\n\t\t\t\t\t_r_3_4_6\n\t\toptional\n\t\t\t_r_10\n\t\t\t\talternative\n\t\t\t\t\t_r_10_11_12\n\t\t\t\t\t_r_10_11_13\n\t\toptional\n\t\t\t_r_15\n\t\t\t\talternative\n\t\t\t\t\t_r_15_16_17\n\t\t\t\t\t_r_15_16_18\n\t\tmandatory\n\t\t\t_r_19\n\t\t\t\tor\n\t\t\t\t\t_r_19_20_22\n\t\t\t\t\t_r_19_20_23\n\t\t\t\t\t_r_19_20_24\n\t\t\t\t\t_r_19_20_25\n\t\t\t\t\t_r_19_20_26\n\t\t\t\t\t_r_19_20_27\nconstraints\n\t_r_10_11_13 requires _r_19_20_25\n\t_r_19_20_23 excludes _r_19_20_27\n\t_r_3_4_6 requires _r_19_20_25\n\t_r_3_4_5 requires _r_19_20_27\n\t_r_19_20_25 excludes _r_19_20_26\n\t_r_10_11_13 requires _r_19_20_26\n\t_r_3_4_6 requires _r_19_20_23\n\t_r_19_20_22 excludes _r_19_20_23\n\t_r_15 requires _r_19_20_22\n\t_r_3_4_6 requires _r_19_20_26\n\t_r_19_20_26 excludes _r_19_20_27\n\t_r_15_16_18 requires _r_19_20_24\n\t_r_19_20_25 excludes _r_19_20_27\n\t_r_3_4_5 requires _r_19_20_24\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 38650334097,
+  "load_duration": 237595041,
+  "prompt_eval_count": 599,
+  "prompt_eval_duration": 3751961000,
+  "eval_count": 539,
+  "eval_duration": 29939546000
+}

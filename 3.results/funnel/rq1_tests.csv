@@ -1,0 +1,4 @@
+llm_a,llm_b,media_a,media_b,wilcoxon_p
+codex,gemma2_9b,0.907,0.993,0.2149
+codex,gpt-4o-mini,0.907,1.0,0.121
+gemma2_9b,gpt-4o-mini,0.993,1.0,0.7277

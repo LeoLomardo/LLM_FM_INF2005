@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-26T23:45:50.847829439Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\ttecom\n\t\toptional\n\t\t\tipvoice\n\t\t\t\tmandatory\n\t\t\t\t\tsoftware\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tswpack1\n\t\t\t\t\t\t\tswpack2\n\t\tmandatory\n\t\t\track\n\t\t\t\tmandatory\n\t\t\t\t\tsizes\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tlarge\n\t\t\t\t\t\t\tmedium\n\t\t\t\t\t\t\tsmall\n\t\toptional\n\t\t\tmessaging\n\t\t\t\toptional\n\t\t\t\t\tupgrade_swpack\n\tnetworking\n\t\tmandatory\n\t\t\tbandwidth\n\t\t\t\trange 10Mbps..1Gbps\nconstraints\n\tswpack1 excludes upgrade_swpack\n\tipvoice excludes upgrade_swpack"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 6180737349,
+  "load_duration": 189484714,
+  "prompt_eval_count": 175,
+  "prompt_eval_duration": 189867000,
+  "eval_count": 111,
+  "eval_duration": 5798790000
+}

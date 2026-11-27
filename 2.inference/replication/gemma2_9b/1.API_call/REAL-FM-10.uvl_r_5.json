@@ -1,0 +1,16 @@
+{
+  "model": "gemma2:9b",
+  "created_at": "2026-11-26T23:41:39.61765233Z",
+  "message": {
+    "role": "assistant",
+    "content": "features\n\tvof\n\t\toptional\n\t\t\tundefined_on_paper\n\t\tmandatory\n\t\t\tfollow_me\n\t\t\t\toptional\n\t\t\t\t\t_undefined_on_paper\n\t\t\t\tmandatory\n\t\t\t\t\tuser_localize\n\t\t\t\t\t\tmandatory\n\t\t\t\t\t\t\tuser_pos_method\n\t\t\t\t\t\t\t\talternative\n\t\t\t\t\t\t\t\t\taccess_point\n\t\t\t\t\t\t\t\t\trfid\n\t\t\t\tmandatory\n\t\t\t\t\tlogon\n\t\t\t\t\t\toptional\n\t\t\t\t\t\t\t__undefined_on_paper\n\t\toptional\n\t\t\tvirtual_printer\n\t\t\t\tmandatory\n\t\t\t\t\tprinter_register\n\t\t\t\tmandatory\n\t\t\t\t\tfile_upload\n\t\t\t\toptional\n\t\t\t\t\tfile_converter\n\t\t\t\t\tprint_format\n\t\t\t\t\t\talternative\n\t\t\t\t\t\t\tpdf\n\t\t\t\t\t\t\traster\n\n\n"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 7266504522,
+  "load_duration": 184303612,
+  "prompt_eval_count": 198,
+  "prompt_eval_duration": 180227000,
+  "eval_count": 130,
+  "eval_duration": 6899087000
+}

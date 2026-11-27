@@ -1,0 +1,44 @@
+features
+	_id_0
+		optional
+			_id_1
+				mandatory
+					_id_2
+						alternative
+							_id_4
+							enhanced_avoidance
+				optional
+					parallel_parking
+		mandatory
+			_id_5
+				optional
+					lateral_range_finder
+				optional
+					forward_range_finder
+				mandatory
+					_id_5_1
+						optional
+							backup_camera
+							adaptive_cruise_control
+		optional
+			_id_0_10
+				mandatory
+					_id_0_10_1
+						alternative
+							_id_0_10_1_a
+							_id_0_10_1_b
+		optional
+			_id_0_11
+				alternative
+					_id_0_11_12_13
+					_id_0_11_12_14
+					_id_0_11_12_15
+				mandatory
+					_id_0_11_1
+						optional
+							parking_assist
+							collision_warning
+constraints
+	enhanced_avoidance requires forward_range_finder
+	_id_5_1 requires forward_range_finder
+	_id_0_10_1_a requires _id_5
